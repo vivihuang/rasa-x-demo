@@ -6,9 +6,6 @@ RUN apt-get update -qq && \
   apt-get install -y --no-install-recommends \
   build-essential \
   wget \
-  bzip2 \
-  unzip \
-  xz-utils \
   openssh-client \
   graphviz-dev \
   pkg-config \
@@ -17,12 +14,11 @@ RUN apt-get update -qq && \
   libssl-dev \
   libffi6 \
   libffi-dev \
+  libpng12-dev \
   curl && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
-  mkdir /app &&\
-  mkdir /app/custom &&\
-  mkdir /app/core_project
+  mkdir /app
 
 WORKDIR /app
 

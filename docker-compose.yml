@@ -1,0 +1,149 @@
+version: '3'
+services:
+  app:
+    build:
+      context: moodbot
+      dockerfile: Dockerfile
+      args:
+        RASA_PYPI_USER: ${RASA_PYPI_USER}
+        RASA_PYPI_PASSWORD: ${RASA_PYPI_PASSWORD}
+
+    container_name: "app"
+    expose:
+    - "5001"
+
+  nlu:
+    build:
+      context: ../rasa_extensions
+      dockerfile: docker/Dockerfile_nlu
+
+    image: "rasa/enterprise-nlu:latest"
+    #container_name: "nlu"
+    expose:
+    - "5000"
+    volumes:
+    - ./moodbot/models/nlu/current:/app/projects/default/current
+    environment:
+      SELF_PORT: "5002"
+      RASA_DUCKLING_HTTP_URL: "http://duckling"
+      MONGO_HOST: "mongodb://mongo"
+      MONGO_PORT: "27017"
+      MONGO_DB: "nlu-backend"
+      RASA_TOKEN: ${RASA_NLU_TOKEN}
+
+  core:
+    build:
+      context: ../rasa_extensions
+      dockerfile: docker/Dockerfile_core
+
+    image: "rasa/enterprise-core:latest"
+    #container_name: "core"
+    expose:
+    - "5005"
+    volumes:
+      - .:/app
+    environment:
+      RASA_CORE_MODEL_DIR: "/app/model"
+      MONGO_HOST: "mongodb://mongo"
+      MONGO_PORT: "27017"
+      MONGO_DB: "nlu-backend"
+      RASA_NLU_HOST: "http://nlu:5000"
+      RASA_PLATFORM_HOST: "http://nlu-backend:5002"
+      RASA_CORE_MODEL_DIR: "/app/model"
+      RASA_NLU_TOKEN:
+      RASA_CORE_TOKEN:
+    volumes:
+    - ./moodbot/models/dialogue:/app/model
+
+  core-backend:
+    build:
+      context: ../rasa_extensions
+      dockerfile: docker/Dockerfile_core_backend
+
+    image: "rasa/core-backend:latest"
+    #container_name: "core-backend"
+    expose:
+    - "5007"
+    volumes:
+      - .:/app
+    environment:
+      PORT: "5007"
+      RASA_CORE_MODEL_DIR: "/app/model"
+      MONGO_HOST: "mongodb://mongo"
+      MONGO_PORT: "27017"
+      MONGO_DB: "nlu-backend"
+      RASA_NLU_HOST: "http://nlu:5000"
+      RASA_PLATFORM_HOST: "http://nlu-backend:5002"
+      RASA_CORE_MODEL_DIR: "/app/model"
+      RASA_NLU_TOKEN:
+      RASA_CORE_TOKEN:
+    volumes:
+    - ./moodbot/models/dialogue:/app/model
+
+  nlu-backend:
+    build:
+      context: ../nlu-trainer-backend
+      dockerfile: Dockerfile
+
+    image: "rasa/nlu-backend:latest"
+    #container_name: "nlu-backend"
+    expose:
+    - "5002"
+    environment:
+      SELF_PORT: "5002"
+      RASA_CORE_MODEL_DIR: "/app/model"
+      MONGO_HOST: "mongodb://mongo"
+      MONGO_PORT: "27017"
+      MONGO_DB: "nlu-backend"
+      RASA_NLU_HOST: "http://nlu:5000"
+      PASSWORD_SALT:
+      TOKEN_SALT:
+      NLU_TOKEN: ${RASA_NLU_TOKEN}
+    volumes:
+    - ./models/current/dialogue:/app/model
+
+  chat-ui:
+    build:
+      context: ../rasa-ui
+      dockerfile: Dockerfile
+
+    image: "rasa/chat-ui:latest"
+    #container_name: "chat-ui"
+    expose:
+    - "80"
+
+  platform-ui:
+    build:
+      context: ../rasa-interface
+      dockerfile: Dockerfile
+
+    image: "rasa/platform-ui:latest"
+    #container_name: "platform-ui"
+    expose:
+    - "80"
+
+  mongo:
+    image: "mongo:latest"
+    #container_name: "mongo"
+    expose:
+    - "27017"
+    volumes:
+    - ./mongo:/data/db
+
+  duckling:
+    image: "rasa/duckling:latest"
+    #container_name: "duckling"
+    expose:
+    - "8000"
+
+  nginx:
+    image: "nginx:latest"
+    #container_name: "nginx"
+    volumes:
+    - ../platform-deployment/nginx.conf:/etc/nginx/conf.d/default.conf
+    ports:
+    - "80:80"
+    - "443:443"
+    expose:
+      - "443"
+      - "80"
