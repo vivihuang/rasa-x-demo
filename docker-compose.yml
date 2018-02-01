@@ -9,6 +9,11 @@ services:
         RASA_PYPI_PASSWORD: ${RASA_PYPI_PASSWORD}
 
     container_name: "app"
+    environment:
+      SELF_PORT: "5001"
+      RASA_REMOTE_CORE_ENDPOINT_URL: "http://core"
+      RASA_CORE_TOKEN: $RASA_CORE_TOKEN
+      RASA_API_ENDPOINT_URL: "http://api-nlu"
     expose:
     - "5001"
 
@@ -20,11 +25,11 @@ services:
     image: "rasa/enterprise-nlu:latest"
     container_name: "nlu"
     expose:
-    - "5000"
+    - "80"
     volumes:
     - ./moodbot/models/nlu/current:/app/projects/default/current
     environment:
-      SELF_PORT: "5002"
+      RASA_PORT: "80"
       RASA_DUCKLING_HTTP_URL: "http://duckling"
       MONGO_HOST: "mongodb://mongo"
       MONGO_PORT: "27017"
@@ -39,16 +44,17 @@ services:
     image: "rasa/enterprise-core:latest"
     container_name: "core"
     expose:
-    - "5005"
+    - "80"
     volumes:
-      - .:/app
+    - .:/app
     environment:
+      RASA_CORE_REMOTE_PORT: "80"
       RASA_CORE_MODEL_DIR: "/app/model"
       MONGO_HOST: "mongodb://mongo"
       MONGO_PORT: "27017"
       MONGO_DB: "nlu-backend"
-      RASA_NLU_HOST: "http://nlu:5000"
-      RASA_PLATFORM_HOST: "http://nlu-backend:5002"
+      RASA_NLU_HOST: "http://nlu"
+      RASA_PLATFORM_HOST: "http://api-nlu"
       RASA_CORE_MODEL_DIR: "/app/model"
       RASA_NLU_TOKEN: ${RASA_NLU_TOKEN}
       RASA_CORE_TOKEN: ${RASA_CORE_TOKEN}
@@ -63,17 +69,17 @@ services:
     image: "rasa/api-core:latest"
     container_name: "api-core"
     expose:
-    - "5007"
+    - "80"
     volumes:
-      - .:/app
+    - .:/app
     environment:
-      PORT: "5007"
+      SELF_PORT: "80"
       RASA_CORE_MODEL_DIR: "/app/model"
       MONGO_HOST: "mongodb://mongo"
       MONGO_PORT: "27017"
       MONGO_DB: "nlu-backend"
-      RASA_NLU_HOST: "http://nlu:5000"
-      RASA_PLATFORM_HOST: "http://nlu-backend:5002"
+      RASA_NLU_HOST: "http://nlu"
+      RASA_PLATFORM_HOST: "http://api-nlu"
       RASA_CORE_MODEL_DIR: "/app/model"
       RASA_NLU_TOKEN: ${RASA_NLU_TOKEN}
       RASA_CORE_TOKEN: ${RASA_CORE_TOKEN}
@@ -88,24 +94,24 @@ services:
     image: "rasa/api-nlu:latest"
     container_name: "api-nlu"
     expose:
-    - "5002"
+    - "80"
     environment:
-      SELF_PORT: "5002"
+      SELF_PORT: "80"
       RASA_CORE_MODEL_DIR: "/app/model"
       MONGO_HOST: "mongodb://mongo"
       MONGO_PORT: "27017"
       MONGO_DB: "nlu-backend"
-      RASA_NLU_HOST: "http://nlu:5000"
+      RASA_NLU_HOST: "http://nlu"
       RASA_NLU_TOKEN: ${RASA_NLU_TOKEN}
       PASSWORD_SALT: ${PASSWORD_SALT}
       TOKEN_SALT: ${TOKEN_SALT}
 
     volumes:
-    - ./models/current/dialogue:/app/model
+    - ./moodbot/models/nlu/current:/app/projects/default/current
 
   chat-ui:
     build:
-      context: ../rasa-ui
+      context: ../rasa-chat
       dockerfile: Dockerfile
 
     image: "rasa/chat-ui:latest"
