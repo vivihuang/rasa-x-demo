@@ -38,4 +38,4 @@ COPY . /app
 
 EXPOSE 5001
 
-CMD ["python", "moodbot/main.py"]
+CMD ["python", "main.py"]
