@@ -1,0 +1,39 @@
+version: '3'
+services:
+  app:
+    build:
+      context: moodbot
+      dockerfile: Dockerfile
+      args:
+        RASA_PYPI_USER: ${RASA_PYPI_USER}
+        RASA_PYPI_PASSWORD: ${RASA_PYPI_PASSWORD}
+
+  nlu:
+    build:
+      context: ../rasa_extensions
+      dockerfile: docker/Dockerfile_nlu
+
+  core:
+    build:
+      context: ../rasa_extensions
+      dockerfile: docker/Dockerfile_core
+
+  api-core:
+    build:
+      context: ../rasa_extensions
+      dockerfile: docker/Dockerfile_core_backend
+
+  api-nlu:
+    build:
+      context: ../nlu-trainer-backend
+      dockerfile: Dockerfile
+
+  chat-ui:
+    build:
+      context: ../rasa-chat
+      dockerfile: Dockerfile
+
+  platform-ui:
+    build:
+      context: ../rasa-interface
+      dockerfile: Dockerfile
