@@ -151,6 +151,10 @@ services:
     ports:
     - "80:80"
     - "443:443"
-    expose:
-      - "443"
-      - "80"
+    depends_on:
+    - nlu
+    - core
+    - api-core
+    - api-nlu
+    - chat-ui
+    - platform-ui
