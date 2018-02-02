@@ -18,7 +18,7 @@ services:
     - "5001"
 
   nlu:
-    image: "rasa/enterprise-nlu:latest"
+    image: "gcr.io/rasa-platform/enterprise-nlu:latest"
     container_name: "nlu"
     expose:
     - "80"
@@ -33,7 +33,7 @@ services:
       RASA_TOKEN: ${RASA_NLU_TOKEN}
 
   core:
-    image: "rasa/enterprise-core:latest"
+    image: "gcr.io/rasa-platform/enterprise-core:latest"
     container_name: "core"
     expose:
     - "80"
@@ -54,7 +54,7 @@ services:
     - ./moodbot/models/dialogue:/app/model
 
   api-core:
-    image: "rasa/api-core:latest"
+    image: "gcr.io/rasa-platform/api-core:latest"
     container_name: "api-core"
     expose:
     - "80"
@@ -75,7 +75,7 @@ services:
     - ./moodbot/models/dialogue:/app/model
 
   api-nlu:
-    image: "rasa/api-nlu:latest"
+    image: "gcr.io/rasa-platform/api-nlu:latest"
     container_name: "api-nlu"
     expose:
     - "80"
@@ -94,13 +94,13 @@ services:
     - ./moodbot/models/nlu/current:/app/projects/default/current
 
   chat-ui:
-    image: "rasa/chat-ui:latest"
+    image: "gcr.io/rasa-platform/chat-ui:latest"
     container_name: "chat-ui"
     expose:
     - "80"
 
   platform-ui:
-    image: "rasa/platform-ui:latest"
+    image: "gcr.io/rasa-platform/platform-ui:latest"
     container_name: "platform-ui"
     expose:
     - "80"
