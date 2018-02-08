@@ -16,6 +16,6 @@ if __name__ == "__main__":
             5001, "/", RasaChatInput(os.environ.get("RASA_API_ENDPOINT_URL")))
 
     run_with_remote_core(model_dir,
-                         "http://localhost:5005",
-                         "",
+                         os.environ.get("RASA_REMOTE_CORE_ENDPOINT_URL"),
+                         os.environ.get("RASA_CORE_TOKEN"),
                          input_channel)
