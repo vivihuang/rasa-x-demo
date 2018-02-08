@@ -68,7 +68,6 @@ services:
       MONGO_DB: "nlu-backend"
       RASA_NLU_HOST: "http://nlu"
       RASA_PLATFORM_HOST: "http://api-nlu"
-      RASA_CORE_MODEL_DIR: "/app/model"
       RASA_NLU_TOKEN: ${RASA_NLU_TOKEN}
       RASA_CORE_TOKEN: ${RASA_CORE_TOKEN}
 

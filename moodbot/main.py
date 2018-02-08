@@ -4,8 +4,12 @@ import os
 from rasa_core.channels.rest import HttpInputChannel
 from rasa_extensions.core.remote import run_with_remote_core
 
+logger = logging.getLogger(__name__)
+
 if __name__ == "__main__":
     logging.basicConfig(level="DEBUG")
+
+    logger.info("Starting App")
 
     model_dir = "models/dialogue"
 
