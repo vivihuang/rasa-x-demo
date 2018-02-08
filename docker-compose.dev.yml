@@ -21,7 +21,7 @@ services:
   api-core:
     build:
       context: ../rasa_extensions
-      dockerfile: docker/Dockerfile_core_backend
+      dockerfile: docker/Dockerfile_api_core
 
   api-nlu:
     build:
