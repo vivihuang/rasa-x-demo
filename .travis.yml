@@ -10,6 +10,7 @@ jobs:
         -out secrets.tar
         -d
       - tar xvf secrets.tar
+      - mv .env moodbot
       - docker login -u _json_key -p "$(cat travis_gcloud_auth.json)" https://gcr.io
       - docker pull gcr.io/rasa-platform/platform-demo:latest || true
       script:
