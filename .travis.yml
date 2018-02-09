@@ -17,6 +17,8 @@ jobs:
       - cd moodbot && docker build
         -t gcr.io/rasa-platform/platform-demo:v$TRAVIS_BUILD_NUMBER
         -t gcr.io/rasa-platform/platform-demo:latest
+        --build-arg RASA_PYPI_PASSWORD=$RASA_PYPI_PASSWORD
+        --build-arg RASA_PYPI_USER=$RASA_PYPI_USER
         --cache-from gcr.io/rasa-platform/platform-demo:latest
         .
       after_success:
