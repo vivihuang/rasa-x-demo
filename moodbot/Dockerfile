@@ -32,7 +32,7 @@ RUN pip install -r requirements.txt
 ARG RASA_PYPI_USER
 ARG RASA_PYPI_PASSWORD
 
-RUN pip install -i "https://$RASA_PYPI_USER:$RASA_PYPI_PASSWORD@pypi.rasa.ai/simple/" rasa_extensions==0.7.0a1
+RUN pip install -i "https://$RASA_PYPI_USER:$RASA_PYPI_PASSWORD@pypi.rasa.ai/simple/" rasa_extensions==0.7.0a2
 
 COPY . /app
 

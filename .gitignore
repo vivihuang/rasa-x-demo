@@ -113,3 +113,4 @@ travis.pub
 
 replicated.yml
 *~
+travis_gcloud_auth.json

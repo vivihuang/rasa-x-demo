@@ -1,16 +1,9 @@
 version: '3'
 services:
   app:
-    build:
-      context: moodbot
-      dockerfile: Dockerfile
-      args:
-        RASA_PYPI_USER: ${RASA_PYPI_USER}
-        RASA_PYPI_PASSWORD: ${RASA_PYPI_PASSWORD}
-
+    image: "gcr.io/rasa-platform/platform-demo:${RASA_PLATFORM_VERSION:-latest}"
     container_name: "app"
     environment:
-      SELF_PORT: "5001"
       RASA_REMOTE_CORE_ENDPOINT_URL: "http://core"
       RASA_CORE_TOKEN: $RASA_CORE_TOKEN
       RASA_API_ENDPOINT_URL: "http://api-nlu"
@@ -18,61 +11,60 @@ services:
     - "5001"
     depends_on:
     - core
+    volumes:
+    - ./moodbot/models/dialogue:/app/models/dialogue
 
   nlu:
-    image: "gcr.io/rasa-platform/enterprise-nlu:latest"
+    image: "gcr.io/rasa-platform/enterprise-nlu:${RASA_PLATFORM_VERSION:-latest}"
     container_name: "nlu"
     expose:
     - "80"
     volumes:
-    - ./moodbot/models/nlu/current:/app/projects/default/current
+    - ./nlu-projects:/app/projects
     environment:
       RASA_PORT: "80"
       RASA_DUCKLING_HTTP_URL: "http://duckling"
+      RASA_TOKEN: ${RASA_NLU_TOKEN}
       MONGO_HOST: "mongodb://mongo"
       MONGO_PORT: "27017"
       MONGO_DB: "nlu-backend"
-      RASA_TOKEN: ${RASA_NLU_TOKEN}
 
   core:
-    image: "gcr.io/rasa-platform/enterprise-core:latest"
+    image: "gcr.io/rasa-platform/enterprise-core:${RASA_PLATFORM_VERSION:-latest}"
     container_name: "core"
     expose:
     - "80"
     volumes:
-    - .:/app
+    - ./core-model:/app/model
     environment:
       RASA_CORE_REMOTE_PORT: "80"
       RASA_CORE_MODEL_DIR: "/app/model"
+      RASA_CORE_TOKEN: ${RASA_CORE_TOKEN}
       MONGO_HOST: "mongodb://mongo"
       MONGO_PORT: "27017"
       MONGO_DB: "nlu-backend"
       RASA_NLU_HOST: "http://nlu"
-      RASA_PLATFORM_HOST: "http://api-nlu"
-      RASA_CORE_MODEL_DIR: "/app/model"
       RASA_NLU_TOKEN: ${RASA_NLU_TOKEN}
-      RASA_CORE_TOKEN: ${RASA_CORE_TOKEN}
-    volumes:
-    - ./models:/app/model
+      RASA_PLATFORM_HOST: "http://api-nlu"
 
   api-core:
-    image: "gcr.io/rasa-platform/api-core:latest"
+    image: "gcr.io/rasa-platform/api-core:${RASA_PLATFORM_VERSION:-latest}"
     container_name: "api-core"
     expose:
     - "80"
     environment:
       SELF_PORT: "80"
-      RASA_CORE_MODEL_DIR: "/app/model"
       MONGO_HOST: "mongodb://mongo"
       MONGO_PORT: "27017"
       MONGO_DB: "nlu-backend"
       RASA_NLU_HOST: "http://nlu"
-      RASA_PLATFORM_HOST: "http://api-nlu"
       RASA_NLU_TOKEN: ${RASA_NLU_TOKEN}
+      RASA_CORE_HOST: "http://core"
       RASA_CORE_TOKEN: ${RASA_CORE_TOKEN}
+      RASA_PLATFORM_HOST: "http://api-nlu"
 
   api-nlu:
-    image: "gcr.io/rasa-platform/api-nlu:latest"
+    image: "gcr.io/rasa-platform/api-nlu:${RASA_PLATFORM_VERSION:-latest}"
     container_name: "api-nlu"
     expose:
     - "80"
@@ -88,13 +80,13 @@ services:
       TOKEN_SALT: ${TOKEN_SALT}
 
   chat-ui:
-    image: "gcr.io/rasa-platform/chat-ui:latest"
+    image: "gcr.io/rasa-platform/chat-ui:${RASA_PLATFORM_VERSION:-latest}"
     container_name: "chat-ui"
     expose:
     - "80"
 
   platform-ui:
-    image: "gcr.io/rasa-platform/platform-ui:latest"
+    image: "gcr.io/rasa-platform/platform-ui:${RASA_PLATFORM_VERSION:-latest}"
     container_name: "platform-ui"
     expose:
     - "80"
