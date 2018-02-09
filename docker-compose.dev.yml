@@ -37,3 +37,8 @@ services:
     build:
       context: ../rasa-interface
       dockerfile: Dockerfile
+
+  nginx:
+    build:
+      context: ../platform-deployment/nginx
+      dockerfile: Dockerfile
