@@ -22,17 +22,17 @@ RUN apt-get update -qq && \
 
 WORKDIR /app
 
-RUN pip install --only-binary=numpy,scipy,scikit-learn numpy scipy scikit-learn
-
-# Copy as early as possible so we can cache ...
-
-COPY requirements.txt ./
-RUN pip install -r requirements.txt
-
 ARG RASA_PYPI_USER
 ARG RASA_PYPI_PASSWORD
 
-RUN pip install -i "https://$RASA_PYPI_USER:$RASA_PYPI_PASSWORD@pypi.rasa.ai/simple/" rasa_extensions==0.7.0a3
+# Copy as early as possible so we can cache ...
+COPY requirements.txt ./
+
+# we use the Rasa python repository, as there are dependencies that are
+# private. any public dependency is still fetched from pypi.python.org
+RUN pip install  \
+  -i "https://$RASA_PYPI_USER:$RASA_PYPI_PASSWORD@pypi.rasa.ai/simple/" \
+  -r requirements.txt
 
 COPY . /app
 

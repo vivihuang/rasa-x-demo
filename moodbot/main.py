@@ -5,7 +5,6 @@ from __future__ import unicode_literals
 
 import logging
 import os
-import time
 
 from rasa_core.channels.rest import HttpInputChannel
 from rasa_extensions.core.remote import run_with_remote_core
@@ -25,8 +24,7 @@ if __name__ == "__main__":
     input_channel = HttpInputChannel(
             5001, "/", RasaChatInput(os.environ.get("RASA_API_ENDPOINT_URL")))
 
-    time.sleep(5)
     run_with_remote_core(model_dir,
+                         input_channel,
                          os.environ.get("RASA_REMOTE_CORE_ENDPOINT_URL"),
-                         os.environ.get("RASA_CORE_TOKEN"),
-                         input_channel)
+                         os.environ.get("RASA_CORE_TOKEN"))

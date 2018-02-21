@@ -1,3 +1,7 @@
 flask-cors==3.0.3
 requests==2.18.4
 flask==0.12.2
+numpy==1.14.0
+scipy==1.0.0
+scikit-learn==0.19.1
+rasa_extensions==0.8.0a2
