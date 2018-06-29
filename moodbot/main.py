@@ -4,13 +4,12 @@ import time
 
 from rasa_core.channels.rest import HttpInputChannel
 from rasa_core.remote import RemoteAgent
+from channels import RasaChatInput
 
 if __name__ == "__main__":
     logging.basicConfig(level="DEBUG")
 
     # instantiate the input channel you want to connect to
-    from rasa_extensions.core.channels.rasa_chat import RasaChatInput
-
     input_channel = HttpInputChannel(
         5001, "/", RasaChatInput(os.environ.get("RASA_API_ENDPOINT_URL")))
 
