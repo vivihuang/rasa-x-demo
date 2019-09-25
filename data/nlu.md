@@ -1,74 +1,118 @@
-## intent:greet
-- hey
-- hello
+## intent:nicetomeeyou
 - hi
-- hello there
-- good morning
-- good evening
-- moin
-- hey there
-- let's go
-- hey dude
-- goodmorning
-- goodevening
-- good afternoon
 
-## intent:goodbye
-- cu
-- good by
-- cee you later
-- good night
-- good afternoon
-- bye
-- goodbye
-- have a nice day
-- see you around
-- bye bye
-- see you later
+## intent:telljoke
+- Tell me a joke
+- Joke
+- Tell me something funny
 
-## intent:mood_affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
-
-## intent:mood_deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- feeling like a king
-- wonderful
-- I am feeling very good
-- I am great
-- I am amazing
-- I am going to save the world
-- super
-- extremely good
-- so so perfect
-- so good
-- so perfect
-
-## intent:mood_unhappy
-- my day was horrible
-- I am sad
-- I don't feel very well
-- I am disappointed
-- super sad
-- I'm so sad
-- sad
-- very sad
-- unhappy
-- not so good
-- not very good
-- extremly sad
-- so saad
-- so sad
+## intent:out_of_scope
+- I want pizza
+- please help with my ice cream it's dripping
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- i want a non dripping ice cream
+- hey little mama let em whisper in your ear
+- someone call the police i think the bot died
+- show me a picture of a chicken
+- neither
+- I want french cuisine
+- i am hungry
+- restaurants
+- restaurant
+- you're a loser lmao
+- can i be shown a gluten free restaurant
+- i don't care!!!!
+- i do not care how are you
+- again?
+- oh wait i gave you my work email address can i change it?
+- hang on let me find it
+- stop it, i do not care!!!
+- really? you're so touchy?
+- how come?
+- I changed my mind
+- what?
+- did i break you
+- I don't wanna tell the name of my company
+- that link doesn't work!
+- you already have that
+- this is a really frustrating experience
+- no stop
+- i want a french restaurant
+- shit bot
+- do you want to marry me?
+- give me food
+- i want food
+- udo, I want to marry you
+- i wanna party
+- shitmuncher
+- I like you
+- i want pizza
+- i want pizza!!
+- silly bot
+- i want to eat
+- you are a stupid bot
+- i hate you
+- Can I ask you questions first?
+- is it a wasteland full of broken robot parts?
+- i can't deal with _your_ request
+- are you vegan
+- who will anser my email?
+- do you sell vacuum robots?
+- i want to buy a roomba for my grandson
+- and make chicken noises into the phone
+- is barbara still married to you
+- what's your wife doing this weekend
+- how are the kids
+- you're rather dull
+- personal or work?
+- are you using Rasa Core and NLU ?
+- tell me a joke
+- what else?
+- I already told you! I'm a shitmuncher
+- I'm a shitmuncher
+- who are the engineers at rasa?
+- who are they?
+- can we keep chatting?
+- talk to me
+- who is your favourite robot?
+- a tamed mouse will arrive at your doorstep in the next couple of days
+- you will know it from the single red rose it carries between its teeth
+- i will tame a mouse for you
+- isn't the newsletter just spam?
+- go back
+- can you help me with the docs?
+- sorry, i cannot rephrase
+- and your REST API doesn't work
+- i told you already
+- better than you
+- oh my god, not again!
+- you are a badass bot!
+- lol
+- why do you need that?
+- is that any of your business
+- can you help me with your docs?
+- i immediately need help with implementing the coolest bot you can imagine
+- can you help me with your docs
+- can you tell me how to build a bot?
+- can you learn from our conversation?
+- common, just try
+- hey, I contacted you a couple of days ago but didn't get any response, any news?
+- please hurry, i have deadline in two weeks to deliver the bot it is for very big company
+- you are annoying
+- Do I have to accept?
+- Is Rasa really smart?
+- kannst du auch deutsch?
+- are the newsletter worth the subscription?
+- it's a pity
+- i want more of you in my life!
+- the one that is better than you
+- you suck
+- bots are bad
+- i dont like bots
+- do you have a phone number?
+- where do you live?
+- how are akela's cats doing?
+- but I just told you that :(
+- Why don’t you answer?
+- But you're an english site :(
+- can you help me to build a bot

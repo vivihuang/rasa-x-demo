@@ -1,36 +1,24 @@
 intents:
-- greet
-- goodbye
-- mood_affirm
-- mood_deny
-- mood_great
-- mood_unhappy
-
+- nicetomeeyou
+- telljoke
+- out_of_scope
 templates:
-  utter_greet:
-  - text: "Hey! How are you?"
-    buttons:
-    - title: "great"
-      payload: "great"
-    - title: "super sad"
-      payload: "super sad"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
+  utter_nicetomeeyou:
+  - text: Thank you. It is a pleasure to meet you as well!
+  - text: It is nice to meet you too!
+  - text: Pleased to meet you too!
+  - text: Likewise!
+  utter_telljoke:
+  - text: Why are eggs not very much into jokes? - Because they could crack up.
+  - text: Do you know a tree’s favorite drink? - Root beer!
+  - text: Why do the French like to eat snails so much? - They can’t stand fast food.
+  utter_out_of_scope:
+  - text: Sorry, I can’t deal with that request.
+  - text: I'm sorry, I can't handle that request.
+  - text: I can't help you with that, I'm sorry.
+  - text: Even a Rasa bot is not completely perfect - it seems like I can't handle
+      that request.
 actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
+- utter_out_of_scope
+- utter_nicetomeeyou
+- utter_telljoke

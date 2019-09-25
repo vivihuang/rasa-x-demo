@@ -1,11 +1,28 @@
 language: en
-pipeline: supervised_embeddings
+pipeline:
+- name: WhitespaceTokenizer
+- name: CRFEntityExtractor
+- name: CountVectorsFeaturizer
+  OOV_token: oov
+  token_pattern: (?u)\b\w+\b
+- name: EmbeddingIntentClassifier
+  epochs: 50
+- name: DucklingHTTPExtractor
+  url: http://localhost:8000
+  dimensions:
+  - email
+  - number
+  - amount-of-money
+- name: EntitySynonymMapper
+
 policies:
-- epochs: 300
-  max_history: 5
+- epochs: 50
+  max_history: 6
   name: KerasPolicy
-- fallback_action_name: action_default_fallback
-  name: FallbackPolicy
-- max_history: 5
-  name: MemoizationPolicy
+- max_history: 6
+  name: AugmentedMemoizationPolicy
+- core_threshold: 0.3
+  name: TwoStageFallbackPolicy
+  nlu_threshold: 0.8
+- name: FormPolicy
 - name: MappingPolicy
