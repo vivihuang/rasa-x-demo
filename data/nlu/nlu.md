@@ -2502,3 +2502,13 @@
 - why
 - why is that
 - why do you need it
+
+## intent:ask_allen
+- ThoughtWorks
+- When did ThoughtWorks found
+- Where did ThoughtWorks found
+- How many employees does ThoughtWorks have now
+- What is ThoughtWorks
+- What is the root of ThoughtWorks
+- What are the goals of ThoughtWorks
+- What can ThoughtWorks deliver
