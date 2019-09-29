@@ -2502,8 +2502,3 @@
 - why
 - why is that
 - why do you need it
-
-## intent:ask_allen
-- How many yards was the second longest passing touchdown
-- Who kicked the most field goals
-- Which areas are tied for the highest truancy rates
