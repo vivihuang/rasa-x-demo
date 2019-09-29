@@ -5,18 +5,21 @@ help:
 	@echo "        Train a combined Rasa NLU and Core model."
 
 train:
-	rasa train --fixed-model-name model
+	rasa train
+
+run-actions:
+	rasa run actions --actions actions.actions
 
 run-cmdline:
-	rasa run actions --actions actions.actions &
+	make run-actions &
 	rasa run --endpoints endpoints.yml --enable-api -m models --debug
 
 run-x:
-	rasa run actions --actions actions.actions &
-	export RASA_X_PASSWORD=test;
+	make run-actions &
+	export RASA_X_PASSWORD=test &
 	rasa x -m models --endpoints endpoints.yml
 
 run-debug:
-	rasa run actions --actions actions.actions &
-	export RASA_X_PASSWORD=test;
+	make run-actions &
+	export RASA_X_PASSWORD=test &
 	rasa x -m models --endpoints endpoints.yml --debug
