@@ -1,105 +1,27 @@
-## intent:affirm
-- yes
-- of course
-- sure
-- yeah
-- ok
-- cool
-- go for it
-- yep
-- yep, will do thank you
-- I'm sure I will!
-- oh awesome!
-- Yes
-- accept
-- I accept
-- i accept
-- ok i accept
-- I changed my mind. I want to accept it
-- ok cool
-- alright
-- i will!
-- ok, I behave now
-- yop
-- oki doki
-- yes please
-- yes please!
-- jo
-- yep if i have to
-- amayzing
-- confirm
-- nice
-- coolio
-- definitely yes without a doubt
-- yas
-- yup
-- perfect
-- sure thing
-- absolutely
-- Oh, ok
-- Sure
-- hm, i'd like that
-- ja
-- sure!
-- yes i accept
-- Sweet
-- amazing!
-- how nice!
-- cool!
-- yay
-- yes accept please
-- great
-- oh cool
-- yes
-- fine
+## intent:ask_faq_tutorials
+- are there some tutorials i could look at
+- do you have tutorials
+- i need a tutorial on how to use rasa
+- rasa tutorial
+- can you show me a tutorial
+- i would like to follow a tutorial
+- do you have a tutorial i can follow
+- i am looking for a tutorial
+- i want a tutorial on rasa
+- i need a rasa tutorial
+- please show me a tutorial
 
-## intent:ask_builder
-- can you share your boss with me?
-- i want to get to know your owner
-- i want to know the company which designed you
-- i want to know the company which generated you
-- i want to know the company which invented you
-- i want to know who invented you
-- May I ask who invented you?
-- please tell me the company who created you
-- please tell me who created you
-- tell me more about your creators
-- tell me more about your founders
-- which company brought you into existence?
-- which company created you?
-- which company invented you?
-- Who's your boss?
-- Who's your builder?
-- Who built you?
-- Who created you?
-- Who is your creator?
-- Who designed you?
-- who do you work for?
-- Who fabricated you?
-- Who generated you?
-- who had the idea to build you?
-- who had the idea to generate you?
-- who had the idea to make you?
-- who is behind all this?
-- Who is the legal owner of you?
-- who is your boss tell me
-- who is your boss?
-- who is your creator?
-- Who is your programmer?
-- Who made you?
-- Who modeled you?
-- Who owns you?
-- Who produced you?
-- Who thought to make you?
-- Who went through the trouble of setting you up?
-- and who built u?
-- who built you?
-- who build yoi
-- who made you?
-- where were you made?
-- why were you made?
-- how were you made?
-- who created you?
+## intent:ask_faq_python_version
+- which python version should i install
+- what version of python
+- which python do you support?
+- what python version do i install
+- what is python version required?
+- python version
+- what version does python needs
+- Which version of Python to install?
+- which version of python do i need
+- Which python version should I install to run Rasa example?
 
 ## intent:ask_faq_channels
 - No, I mean how it is possible to use Skype as channel?
@@ -127,13 +49,6 @@
 - Can you tell which messaging channels does rasa support?
 - Rasa supports some messaging channels, what are those?
 - What channels of communication does rasa support?
-
-## intent:ask_faq_community_size
-- How large is the Rasa community
-- how big is your community?
-- how many forum members do you have
-- do you have a large community
-- how many people are using Rasa
 
 ## intent:ask_faq_differencecorenlu
 - What makes [core](product) and [nlu](product) different?
@@ -253,18 +168,6 @@
 - what is rasa platform?
 - tell me what is platform
 
-## intent:ask_faq_python_version
-- which python version should i install
-- what version of python
-- which python do you support?
-- what python version do i install
-- what is python version required?
-- python version
-- what version does python needs
-- Which version of Python to install?
-- which version of python do i need
-- Which python version should I install to run Rasa example?
-
 ## intent:ask_faq_slots
 - how do slots work
 - In Rasa, what are slots used for?
@@ -308,19 +211,6 @@
 - how are the slots?
 - which slots are there?
 
-## intent:ask_faq_tutorials
-- are there some tutorials i could look at
-- do you have tutorials
-- i need a tutorial on how to use rasa
-- rasa tutorial
-- can you show me a tutorial
-- i would like to follow a tutorial
-- do you have a tutorial i can follow
-- i am looking for a tutorial
-- i want a tutorial on rasa
-- i need a rasa tutorial
-- please show me a tutorial
-- tutorial
 
 ## intent:ask_faq_voice
 - can I form a voice bot with rasa?
@@ -368,22 +258,18 @@
 - can i build a voice bot
 - can i build a voice bot with rasa?
 
+## intent:ask_faq_community_size
+- How large is the Rasa community
+- how big is your community?
+- how many forum members do you have
+- do you have a large community
+- how many people are using Rasa
+
 ## intent:ask_faq_what_is_forum
 - what is the forum
 - why should I join the forum
 - whats in the forum
 - what is the Rasa forum
-
-## intent:ask_how_contribute
-- how contribute to Rasa?
-- how can I contribute to Rasa
-- how help Rasa
-- how to improve Rasa
-- how can I improve Rasa
-- I want to help to improve Rasa
-- I want to make Rasa better
-- how can I support the community
-- what can I do
 
 ## intent:ask_howbuilt
 - How were you built?
@@ -428,53 +314,6 @@
 - How were you set up?
 - By what method were you fashioned?
 
-## intent:ask_howdoing
-- Ahoy matey how are you?
-- are you alright
-- are you having a good day
-- Are you ok?
-- are you okay
-- Do you feel good?
-- how are things going
-- how are things with you?
-- How are things?
-- how are you
-- how are you doing
-- how are you doing this morning
-- how are you feeling
-- how are you today
-- How are you?
-- how do you do?
-- how have you been
-- how is it going
-- how is your day
-- how is your day going
-- how is your evening
-- How was your day?
-- How's it going
-- How's it hanging?
-- how's life
-- how's life been treating you?
-- How's life treating you friend?
-- how's your day going
-- How've you been?
-- I'm fine and you
-- is everything all right
-- Is everything ok?
-- is everything okay
-- what about your day
-- What's going on?
-- what's good
-- What's new?
-- What's up man
-- What's up
-- how are you?
-- Do you have a great day?
-- how are you doing today my sweet friend
-- how are you doing?
-- how are u
-- How are you?
-
 ## intent:ask_howold
 - whats your age?
 - how old?
@@ -514,7 +353,6 @@
 - How many years have you lived?
 - How many years have you been alive?
 - How long have you occupied the earth?
-- how old are you
 
 ## intent:ask_isbot
 - are you a bot?
@@ -593,14 +431,6 @@
 - are you multilingual?
 - what foreign languages do you know?
 - what foreign languages are you fluent in?
-
-## intent:ask_question_in_forum
-- Hey, i want to ask a question in the forum
-- i want to get help in the forum
-- where can I find the forum
-- I have a problem
-- I need help with a problem
-- Can you help me to solve a problem?
 
 ## intent:ask_restaurant
 - restaurants
@@ -686,44 +516,6 @@
 - What time have we got?
 - What time is it right now?
 
-## intent:ask_weather
-- How is the weather today?
-- What's the weather like?
-- How is the weather?
-- What is the weather at your place?
-- Do you have good weather?
-- Is it raining?
-- What's it like out there?
-- Is it hot or cold?
-- Beautiful day, isn't it?
-- What's the weather forecast?
-- Is it quite breezy outside?
-- Will I require my raincoat today?
-- What is the weather for tomorrow?
-- Nice day out today?
-- What is the temperature today?
-- Can we expect any thunderstorms?
-- Will the skies be clear today?
-- Are we in for a scorcher?
-- Looks like a beautiful day hey?
-- Will we build a snowman today?
-- Is it humid out there today?
-- Are there any meteorological changes that I need to be aware of?
-- whats the weather like tomorrow
-- hows the weather in bot world
-- how is the weather in berlin?
-- what's the weather today?
-- how's the weather?
-- what's the weather like where you are?
-- is the sun out where you are?
-- is it sunny
-- is the sun out where zou are?
-- what"s the weather
-- whats the weather in berlin?
-- how's the weather in berlin
-- how is the weather today
-- what's the weather today
-
 ## intent:ask_whatismyname
 - what is my name?
 - May i know my name?
@@ -763,6 +555,206 @@
 - What is my full name?
 - What do people call me?
 - What exactly is my name?
+
+
+## intent:ask_wherefrom
+- where do you live
+- where are you from?
+- So where are you from
+- Where are you?
+- Where were you born?
+- What city were you born in?
+- Where did you grow up?
+- What state were you born in?
+- What country were you born in?
+- Where do you come from?
+- Where were you at before you were here?
+- Where from?
+- Do you know where you come from?
+- where's your home town?
+- what country are you from?
+- are you from around here?
+- where did you grow up?
+- where are your parents from?
+- where did you spend your youth?
+- where did you come from?
+- Where were you born?
+- Where do you consider home?
+- What city do you claim to for your birth?
+- What citizenship do you lay claim to?
+- What is your heritage?
+- What is your birthplace?
+- Where did you grow up?
+- You were conceived in what location?
+- What is your root?
+- What is your origin?
+- From where did you come?
+- Where did you come from?
+- Where did you originate?
+- Where are your roots?
+- Where are your origins?
+- What area are you from?
+- What location are you from?
+- What's the name of the place you came from?
+
+## intent:ask_whoami
+- Who am I?
+- Okay who am I?
+- WHo am I
+- Tell me who am I?
+- Tell me who I am?
+- Do you know who I am?
+- Can you tell me who I am?
+- How do I discover who I am?
+- How can I determine who I am?
+- Do you know who am I?
+- Can you tell me who am I?
+- How do I discover who am I?
+- How can I determine who am I?
+- who are I ?
+- who may i ?
+- Shall i know who am i?
+- Tell me who I am.
+- How do I identify myself?
+- Who could I be?
+- tell me who I am?
+- what's my identity?
+- tell me what my identity is?
+- can you tell me what I am?
+- can you tell me what my identity is?
+- can you tell me who I am?
+- who am i
+
+## intent:ask_builder
+- can you share your boss with me?
+- i want to get to know your owner
+- i want to know the company which designed you
+- i want to know the company which generated you
+- i want to know the company which invented you
+- i want to know who invented you
+- May I ask who invented you?
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about your creators
+- tell me more about your founders
+- which company brought you into existence?
+- which company created you?
+- which company invented you?
+- Who's your boss?
+- Who's your builder?
+- Who built you?
+- Who created you?
+- Who is your creator?
+- Who designed you?
+- who do you work for?
+- Who fabricated you?
+- Who generated you?
+- who had the idea to build you?
+- who had the idea to generate you?
+- who had the idea to make you?
+- who is behind all this?
+- Who is the legal owner of you?
+- who is your boss tell me
+- who is your boss?
+- who is your creator?
+- Who is your programmer?
+- Who made you?
+- Who modeled you?
+- Who owns you?
+- Who produced you?
+- Who thought to make you?
+- Who went through the trouble of setting you up?
+- and who built u?
+- who built you?
+- who build yoi
+- who made you?
+- where were you made?
+- why were you made?
+- how were you made?
+- who created you?
+
+## intent:ask_howdoing
+- Ahoy matey how are you?
+- are you alright
+- are you having a good day
+- Are you ok?
+- are you okay
+- Do you feel good?
+- how are things going
+- how are things with you?
+- How are things?
+- how are you
+- how are you doing
+- how are you doing this morning
+- how are you feeling
+- how are you today
+- How are you?
+- how do you do?
+- how have you been
+- how is it going
+- how is your day
+- how is your day going
+- how is your evening
+- How was your day?
+- How's it going
+- How's it hanging?
+- how's life
+- how's life been treating you?
+- How's life treating you friend?
+- how's your day going
+- How've you been?
+- I'm fine and you
+- is everything all right
+- Is everything ok?
+- is everything okay
+- what about your day
+- What's going on?
+- what's good
+- What's new?
+- What's up man
+- What's up
+- how are you?
+- Do you have a great day?
+- how are you doing today my sweet friend
+- how are you doing?
+- how are u
+- How are you?
+
+## intent:ask_weather
+- How is the weather today?
+- What's the weather like?
+- How is the weather?
+- What is the weather at your place?
+- Do you have good weather?
+- Is it raining?
+- What's it like out there?
+- Is it hot or cold?
+- Beautiful day, isn't it?
+- What's the weather forecast?
+- Is it quite breezy outside?
+- Will I require my raincoat today?
+- What is the weather for tomorrow?
+- Nice day out today?
+- What is the temperature today?
+- Can we expect any thunderstorms?
+- Will the skies be clear today?
+- Are we in for a scorcher?
+- Looks like a beautiful day hey?
+- Will we build a snowman today?
+- Is it humid out there today?
+- Are there any meteorological changes that I need to be aware of?
+- whats the weather like tomorrow
+- hows the weather in bot world
+- how is the weather in berlin?
+- what's the weather today?
+- how's the weather?
+- what's the weather like where you are?
+- is the sun out where you are?
+- is it sunny
+- is the sun out where zou are?
+- what"s the weather
+- whats the weather in berlin?
+- how's the weather in berlin
 
 ## intent:ask_whatisrasa
 - How does Rasa work?
@@ -838,93 +830,6 @@
 - Can you explain me in one sentence what you are doing?
 - what are the options?
 
-## intent:ask_when_next_event
-- When is the next community event?
-- when is the next event in [Berlin](location)
-- is there a event in [Montreal](location)
-- is there a Rasa event in [San Francisco](location)
-- what's the next rasa event
-- whats the next community event
-- when is the next usergroup
-- do you have an event in [Berlin](location)
-
-## intent:ask_wherefrom
-- where do you live
-- where are you from?
-- So where are you from
-- Where are you?
-- Where were you born?
-- What city were you born in?
-- Where did you grow up?
-- What state were you born in?
-- What country were you born in?
-- Where do you come from?
-- Where were you at before you were here?
-- Where from?
-- Do you know where you come from?
-- where's your home town?
-- what country are you from?
-- are you from around here?
-- where did you grow up?
-- where are your parents from?
-- where did you spend your youth?
-- where did you come from?
-- Where were you born?
-- Where do you consider home?
-- What city do you claim to for your birth?
-- What citizenship do you lay claim to?
-- What is your heritage?
-- What is your birthplace?
-- Where did you grow up?
-- You were conceived in what location?
-- What is your root?
-- What is your origin?
-- From where did you come?
-- Where did you come from?
-- Where did you originate?
-- Where are your roots?
-- Where are your origins?
-- What area are you from?
-- What location are you from?
-- What's the name of the place you came from?
-- where are you
-
-## intent:ask_which_events
-- Which community events do you have
-- Where can I meet Rasas
-- Do you have a user group
-- is there a meetup
-- is there a Rasa meetup
-- i want to meet Rasa
-
-## intent:ask_whoami
-- Who am I?
-- Okay who am I?
-- WHo am I
-- Tell me who am I?
-- Tell me who I am?
-- Do you know who I am?
-- Can you tell me who I am?
-- How do I discover who I am?
-- How can I determine who I am?
-- Do you know who am I?
-- Can you tell me who am I?
-- How do I discover who am I?
-- How can I determine who am I?
-- who are I ?
-- who may i ?
-- Shall i know who am i?
-- Tell me who I am.
-- How do I identify myself?
-- Who could I be?
-- tell me who I am?
-- what's my identity?
-- tell me what my identity is?
-- can you tell me what I am?
-- can you tell me what my identity is?
-- can you tell me who I am?
-- who am i
-
 ## intent:ask_whoisit
 - who is this
 - who am i talking to
@@ -948,12 +853,6 @@
 - are you a bot?
 - who is this?
 - hi! what's your name?
-
-## intent:ask_why_contribute
-- why should I contribute to Rasa
-- why should I contribute
-- why should I help to improve Rasa
-- why contribute to Rasa
 
 ## intent:bye
 - goodbye
@@ -1032,7 +931,7 @@
 - id like a call please
 - I would like to have a call with sales team
 - i want someone to call me
-- request a call
+-  request a call
 - request a call
 - I want to talk to sales
 - i'd like to talk to a sales person
@@ -1163,7 +1062,6 @@
 - i don't want either of those
 - nah thanks
 - neither of these
-- i do not have email
 
 ## intent:enter_data
 - 100k
@@ -1276,7 +1174,7 @@
 - adele@gmx.com
 - my name is [marc](name)
 - one trillion dollar
-- I'm a [full stack developer](job_function)
+- I'm a [full stack developer](job_function:full stack developer)
 - moabit@yoga.com
 - it's the [moabit yoga studio](company)
 - my name is [oli miller](name)
@@ -1464,7 +1362,7 @@
 - a great one
 - one that will get me promoted
 - conversational
-- propella@daskapital.de
+-  propella@daskapital.de
 - [Bolschewistische Kurkapelle Schwarz-Rot](company)
 - [akela propella](name)
 - schlabberjimmy@glibberglitter.edu
@@ -1848,23 +1746,6 @@
 - please give me instructions for [pip](package_manager)
 - please [conda](package_manager)
 - [pip](package_manager) please
-- tw
-- vivi
-- [vivihuang@112.com](email)
-- test
-
-## intent:explain
-- tell me more
-- could you please explain that
-- could you tell me more
-- give me more information please
-- could you please give me some more information
-- i want more information
-- what is the difference
-- can you tell me the difference
-- why
-- why is that
-- why do you need it
 
 ## intent:greet
 - Hi
@@ -1935,43 +1816,6 @@
 - good morning
 - good afternoon
 
-## intent:how_to_get_started
-- how do I get started with Rasa
-- how do I use rasa
-- what is the difference between rasa [nlu](product) and rasa [core](product)
-- how to start with rasa
-- how to start with it
-- how to build a bot?
-- how can I build a chatbot
-- what can I do with Rasa?
-- where to start the development of rasa
-- WHAT IS RASA
-- WHAT IS IT
-- so, how do I use rasa?
-- can i just test features without having to deal with your predefined conversation
-- can you guide me know to create knowledge base chatbot
-- how can I learn rasa
-- i want to use rasa to build my chatbot
-- how do i get rasa [core](product)
-- how do I train rasa [nlu](product)
-- how do i learn rasa [core](product)
-- what is rasa [core](product)
-- what is [nlu](product)
-- I want to learn about rasa [core](product)
-- i want to use [nlu](product)
-- [core](product)
-- [nlu](product)
-- rasa [stack](product:core)
-- how to learn rasa [stack](product:core)
-- I want to learn about rasa [nlu](product)
-- i want to learn about rasa [core](product)
-- how to get started with [nlu](product)
-- give me some information on [nlu](product)
-- tell me how to get started with [core](product)
-- how about [nlu](product)
-- tell me about [core](product) please
-- what is this [nlu](product) thing?
-
 ## intent:human_handoff
 - I want to talk to a human
 - let me speak with a real person please
@@ -2012,113 +1856,60 @@
 - I want to talk to the founders
 - i want to talk to a human
 
-## intent:install_rasa
-- I want to install Rasa Stack
-- How to install Rasa?
-- Where to get Rasa Stack?
-- How to install Rasa Core?
-- install Rasa NLU
-- how do I install rasa in windows
-- how do I run rasa on windows
-- install Rasa on Linux
-- install Rasa on Mac
-- Can you help me to install Rasa?
-- Just install Rasa Stack
-- How to install Rasa Stack
-- I'd like to install Rasa Core
-- I'd like to install Rasa NLU
-- Help me install Rasa
-- I want to do a Rasa Stack installation
-- I'm going to install Rasa Stack
-- Please help me install Rasa Stack
-- Please install Rasa Stack
-- I think I want to install Rasa Stack
-- How do I install Rasa Stack?
-- I want info on installing Rasa
-- I'd like to perform an installation of Rasa Stack
-- Let me install Rasa Stack.
-- I need Rasa Stack
-- Help me get Rasa Core.
-- Could I have Rasa Stack?
-- Could you install Rasa Stack for me?
-- Could you help me get Rasa stack?
-- I require Rasa Stack?
-- Please, I need Rasa Core.
-- Can you get me Rasa Core?
-- I need assistance in getting Rasa Stack.
-- I want to use Rasa Stack
-- I'm getting Rasa Stack
-- I have decided on Rasa Stack
-- I'm installing Rasa Stack
-- Rasa Stack is what I will be installing
-- I have chosen Rasa Stack
-- I need Rasa Stack.
-- I need to install Rasa Core.
-- I need to install Rasa NLU.
-- Do you mind helping me install Rasa?
-- Its urgent for me to install Rasa.
-- Please assist me with installing Rasa Stack.
-- I need to get Rasa Stack up and running.
-- Yes, I do need Rasa Stack.
-- Thank you in advance for suggesting I install Rasa NLU.
-- Installing Rasa Stack will be extremely helpful to me.
-
-## intent:next_step
-- Take me to the next step
-- Next step
-- I want to go to the next step
-- Please take me to the next step
-- Next step please
-
-## intent:nlu_generation_tool_recommendation
-- which tools can I use to create nlu data
-- how can I get nlu data
-- where can i get data for the nlu
-- recommend me some nlu tools
-- how to work with nlu data
-- i need more nlu data
-- are there tools to create nlu data
-- i require more nlu data
-- need more data for nlu
-- i have to less nlu data
-- are there simpler ways to create nlu data
-
-## intent:nlu_info
-- can you explain to me how [entity recognition](nlu_part) works?
-- how does [entity recognition](nlu_part) work?
-- an explanation of how [entity recognition](nlu_part) work would help
-- I still don’t get how [entity recognition](nlu_part) works
-- it would be helpful to learn more about [entity recognition](nlu_part)
-- tell me about [entity recognition](nlu_part)
-- I want to learn about [entity recognition](nlu_part)
-- [entity recognition](nlu_part)
-- what is [entity recognition](nlu_part)?
-- I don’t understand [entity recognition](nlu_part)
-- [entity recognition](nlu_part) - what is that?
-- I don’t understand how you handle [entity recognition](nlu_part) at Rasa
-- how is [entity recognition](nlu_part) managed in rasa?
-- I checked the documentation on [entity recognition](nlu_part) but I still don’t understand it
-- can you explain to me how [intent classification](nlu_part) works?
-- how does [intent classification](nlu_part) work?
-- an explanation of how [intent classification](nlu_part) work would help
-- I still don’t get how [intent classification](nlu_part) works
-- it would be helpful to learn more about [intent classification](nlu_part)
-- tell me about [intent classification](nlu_part)
-- I want to learn about [intent classification](nlu_part)
-- [intent classification](nlu_part)
-- what is [intent classification](nlu_part)?
-- I don’t understand [intent classification](nlu_part)
-- [intent classification](nlu_part) - what is that?
-- I don’t understand how you handle [intent classification](nlu_part) at Rasa
-- how is [intent classification](nlu_part) managed in rasa?
-- I checked the documentation on [intent classification](nlu_part) but I still don’t understand it
-- do you use [duckling](nlu_part)
-- I want to know if rasa works with [duckling](nlu_part)
-- [duckling](nlu_part)
-- how do you integrate [duckling](nlu_part)
-- does rasa work with [duckling](nlu_part)?
-- is [duckling](nlu_part) part of rasa?
-- [intents](nlu_part)
+## intent:affirm
+- yes
+- of course
+- sure
+- yeah
+- ok
+- cool
+- go for it
+- yep
+- yep, will do thank you
+- I'm sure I will!
+- oh awesome!
+- Yes
+- accept
+- I accept
+- i accept
+- ok i accept
+- I changed my mind. I want to accept it
+- ok cool
+- alright
+- i will!
+- ok, I behave now
+- yop
+- oki doki
+- yes please
+- yes please!
+- jo
+- yep if i have to
+- amayzing
+- confirm
+- nice
+- coolio
+- definitely yes without a doubt
+- yas
+- yup
+- perfect
+- sure thing
+- absolutely
+- Oh, ok
+- Sure
+- hm, i'd like that
+- ja
+- sure!
+- yes i accept
+- Sweet
+- amazing!
+- how nice!
+- cool!
+- yay
+- yes accept please
+- great
+- oh cool
+- yes
+- fine
 
 ## intent:out_of_scope
 - I want pizza
@@ -2223,29 +2014,13 @@
 - you suck
 - bots are bad
 - i dont like bots
-- do you have a phone number?
+ - do you have a phone number?
 - where do you live?
 - how are akela's cats doing?
 - but I just told you that :(
 - Why don’t you answer?
 - But you're an english site :(
 - can you help me to build a bot
-
-## intent:pipeline_recommendation
-- what pipeline should I start with?
-- what is the right pipeline to choose?
-- what I a good pipeline to start with?
-- what pipeline should i use?
-- what pipeline is better for what i want?
-- what pipeline should I start with?
-- should I better start with the tensorflow pipeline or spacy?
-- spacy or tensorflow, what is better to start?
-- I don’t know which pipeline to use
-- what pipeline is better?
-- which pipeline is better?
-- recommend pipeline
-- pipeline recommendation
-- give me a recommendation
 
 ## intent:signup_newsletter
 - I wanna sign up for the newsletter.
@@ -2360,28 +2135,70 @@
 - i want on that dope newsletter
 - Subscribe
 
-## intent:switch
-- I currently use [dialog flow](current_api:dialogflow)
-- I want to switch from [dialog flow](current_api:dialogflow) to rasa
-- I want to change from [dialog flow](current_api:dialogflow) to rasa
-- I want to convert my [dialog flow](current_api:dialogflow) bot to rasa
-- I currently use [LUIS](current_api:luis)
-- I use [luis](current_api) at the moment
-- [luis](current_api) atm
-- switching from [DialogFlow](current_api:dialogflow)
-- I use [DialogFlow](current_api:dialogflow)
-- i want to switch from [dialogflow](current_api) to Rasa
-- I want to move from [LUIS.ai](current_api:luis) to Rasa
-- [DialogFlow](current_api:dialogflow)
-- [luis.ai](current_api:luis)
-- [LUIS](current_api:luis)
-- [bot framework](current_api)
-- I use [wit.ai](product)
-- chatfuel
-- how does rasa compare to [dialogflow](product)
-- how does rasa compare to [luis](product)
-- is rasa better than [dialog flow](product:dialogflow)
-- what is the difference between [bot framework](product) and rasa
+## intent:thank
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- thanks
+- thanks!
+- Cool. Thanks
+- thanks
+- thanks this is great news
+- thank you
+- great thanks
+- Thanks!
+- cool thanks
+- thanks for forum link, I'll check it out
+- thanks!
+
+## intent:how_to_get_started
+- how do I get started with Rasa
+- how do I use rasa
+- what is the difference between rasa [nlu](product) and rasa [core](product)
+- how to start with rasa
+- how to start with it
+- how to build a bot?
+- how can I build a chatbot
+- what can I do with Rasa?
+- where to start the development of rasa
+- WHAT IS RASA
+- WHAT IS IT
+- so, how do I use rasa?
+- can i just test features without having to deal with your predefined conversation
+- can you guide me know to create knowledge base chatbot
+- how can I learn rasa
+- i want to use rasa to build my chatbot
+- how do i get rasa [core](product)
+- how do I train rasa [nlu](product)
+- how do i learn rasa [core](product)
+- what is rasa [core](product)
+- what is [nlu](product)
+- I want to learn about rasa [core](product)
+- i want to use [nlu](product)
+- [core](product)
+- [nlu](product)
+- rasa [stack](product:core)
+- how to learn rasa [stack](product:core)
+- I want to learn about rasa [nlu](product:nlu)
+- i want to learn about rasa [core](product:core)
+- how to get started with [nlu](product)
+- give me some information on [nlu](product)
+- tell me how to get started with [core](product)
+- how about [nlu](product)
+- tell me about [core](product) please
+- what is this [nlu](product) thing?
 
 ## intent:technical_question
 - what is duckling
@@ -2415,41 +2232,220 @@
 - does rasa support voice input
 - is there an alexa integration
 
-## intent:thank
-- Thanks
-- Thank you
-- Thank you so much
-- Thanks bot
-- Thanks for that
-- cheers
-- cheers bro
-- ok thanks!
-- perfect thank you
-- thanks a bunch for everything
-- thanks for the help
-- thanks a lot
-- amazing, thanks
-- cool, thanks
-- cool thank you
-- thanks
-- thanks!
-- Cool. Thanks
-- thanks
-- thanks this is great news
-- thank you
-- great thanks
-- Thanks!
-- cool thanks
-- thanks for forum link, I'll check it out
-- thanks!
+## intent:switch
+- I currently use [dialog flow](current_api:dialogflow)
+- I want to switch from [dialog flow](current_api:dialogflow) to rasa
+- I want to change from [dialog flow](current_api:dialogflow) to rasa
+- I want to convert my [dialog flow](current_api:dialogflow) bot to rasa
+- I currently use [LUIS](current_api:luis)
+- I use [luis](current_api) at the moment
+- [luis](current_api) atm
+- switching from [DialogFlow](current_api:dialogflow)
+- I use [DialogFlow](current_api:dialogflow)
+- i want to switch from [dialogflow](current_api) to Rasa
+- I want to move from [LUIS.ai](current_api:luis) to Rasa
+- [DialogFlow](current_api:dialogflow)
+- [luis.ai](current_api:luis)
+- [LUIS](current_api:luis)
+- [bot framework](current_api)
+- I use [wit.ai](product)
+- chatfuel
+- how does rasa compare to [dialogflow](product)
+- how does rasa compare to [luis](product)
+- is rasa better than [dialog flow](product:dialogflow)
+- what is the difference between [bot framework](product) and rasa
 
-## intent:ask_allen
-- How many yards was the second longest passing touchdown
-- Who kicked the most field goals
-- Which areas are tied for the highest truancy rates
+## intent:nlu_info
+- can you explain to me how [entity recognition](nlu_part) works?
+- how does [entity recognition](nlu_part) work?
+- an explanation of how [entity recognition](nlu_part) work would help
+- I still don’t get how [entity recognition](nlu_part) works
+- it would be helpful to learn more about [entity recognition](nlu_part)
+- tell me about [entity recognition](nlu_part)
+- I want to learn about [entity recognition](nlu_part)
+- [entity recognition](nlu_part)
+- what is [entity recognition](nlu_part)?
+- I don’t understand [entity recognition](nlu_part)
+- [entity recognition](nlu_part) - what is that?
+- I don’t understand how you handle [entity recognition](nlu_part) at Rasa
+- how is [entity recognition](nlu_part) managed in rasa?
+- I checked the documentation on [entity recognition](nlu_part) but I still don’t understand it
+- can you explain to me how [intent classification](nlu_part) works?
+- how does [intent classification](nlu_part) work?
+- an explanation of how [intent classification](nlu_part) work would help
+- I still don’t get how [intent classification](nlu_part) works
+- it would be helpful to learn more about [intent classification](nlu_part)
+- tell me about [intent classification](nlu_part)
+- I want to learn about [intent classification](nlu_part)
+- [intent classification](nlu_part)
+- what is [intent classification](nlu_part)?
+- I don’t understand [intent classification](nlu_part)
+- [intent classification](nlu_part) - what is that?
+- I don’t understand how you handle [intent classification](nlu_part) at Rasa
+- how is [intent classification](nlu_part) managed in rasa?
+- I checked the documentation on [intent classification](nlu_part) but I still don’t understand it
+- do you use [duckling](nlu_part)
+- I want to know if rasa works with [duckling](nlu_part)
+- [duckling](nlu_part)
+- how do you integrate [duckling](nlu_part)
+- does rasa work with [duckling](nlu_part)?
+- is [duckling](nlu_part) part of rasa?
+- [intents](nlu_part)
 
-## synonym:1
-- one
+## synonym:intent classification
+- intents
+- intent
+
+## synonym:entity recognition
+- entity extraction
+
+## intent:pipeline_recommendation
+- what pipeline should I start with?
+- what is the right pipeline to choose?
+- what I a good pipeline to start with?
+- what pipeline should i use?
+- what pipeline is better for what i want?
+- what pipeline should I start with?
+- should I better start with the tensorflow pipeline or spacy?
+- spacy or tensorflow, what is better to start?
+- I don’t know which pipeline to use
+- what pipeline is better?
+- which pipeline is better?
+- recommend pipeline
+- pipeline recommendation
+- give me a recommendation
+
+## intent:nlu_generation_tool_recommendation
+- which tools can I use to create nlu data
+- how can I get nlu data
+- where can i get data for the nlu
+- recommend me some nlu tools
+- how to work with nlu data
+- i need more nlu data
+- are there tools to create nlu data
+- i require more nlu data
+- need more data for nlu
+- i have to less nlu data
+- are there simpler ways to create nlu data
+
+## intent:install_rasa
+- I want to install Rasa Stack
+- How to install Rasa?
+- Where to get Rasa Stack?
+- How to install Rasa Core?
+- install Rasa NLU
+- how do I install rasa in windows
+- how do I run rasa on windows
+- install Rasa on Linux
+- install Rasa on Mac
+- Can you help me to install Rasa?
+- Just install Rasa Stack
+- How to install Rasa Stack
+- I'd like to install Rasa Core
+- I'd like to install Rasa NLU
+- Help me install Rasa
+- I want to do a Rasa Stack installation
+- I'm going to install Rasa Stack
+- Please help me install Rasa Stack
+- Please install Rasa Stack
+- I think I want to install Rasa Stack
+- How do I install Rasa Stack?
+- I want info on installing Rasa
+- I'd like to perform an installation of Rasa Stack
+- Let me install Rasa Stack.
+- I need Rasa Stack
+- Help me get Rasa Core.
+- Could I have Rasa Stack?
+- Could you install Rasa Stack for me?
+- Could you help me get Rasa stack?
+- I require Rasa Stack?
+- Please, I need Rasa Core.
+- Can you get me Rasa Core?
+- I need assistance in getting Rasa Stack.
+- I want to use Rasa Stack
+- I'm getting Rasa Stack
+- I have decided on Rasa Stack
+- I'm installing Rasa Stack
+- Rasa Stack is what I will be installing
+- I have chosen Rasa Stack
+- I need Rasa Stack.
+- I need to install Rasa Core.
+- I need to install Rasa NLU.
+- Do you mind helping me install Rasa?
+- Its urgent for me to install Rasa.
+- Please assist me with installing Rasa Stack.
+- I need to get Rasa Stack up and running.
+- Yes, I do need Rasa Stack.
+- Thank you in advance for suggesting I install Rasa NLU.
+- Installing Rasa Stack will be extremely helpful to me.
+
+## synonym:conda
+- anaconda
+
+## intent:ask_which_events
+- Which community events do you have
+- Where can I meet Rasas
+- Do you have a user group
+- is there a meetup
+- is there a Rasa meetup
+- i want to meet Rasa
+
+## intent:ask_when_next_event
+- When is the next community event?
+- when is the next event in [Berlin](location)
+- is there a event in [Montreal](location)
+- is there a Rasa event in [San Francisco](location)
+- what's the next rasa event
+- whats the next community event
+- when is the next usergroup
+- do you have an event in [Berlin](location)
+
+## lookup:location
+- San Francisco
+- Montreal
+- New York
+- Washington
+- Berlin
+- Zurich
+- Hamburg
+- Frankfurt
+- Munich
+- Madrid
+- Cologne
+- Düsseldorf
+- Barcelona
+- Vienna
+- Warsaw
+- Paris
+- Rome
+- London
+- Prague
+- Sidney
+- Delhi
+- Mumbai
+- Tokyo
+- Rio de Janeiro
+- Beijing
+- Guangzhou
+- Shanghai
+- Chongqing
+- Hong Kong
+- China
+- India
+- US
+- USA
+- Germany
+- United States
+- UK
+- England
+- Brazil
+- France
+- Poland
+- Italy
+- Spain
+- Europe
+- Canada
+- Ukraine
 
 ## synonym:USA
 - US
@@ -2462,55 +2458,52 @@
 - UK
 - U.K.
 
-## synonym:alex
-- Alex
+## intent:ask_question_in_forum
+- Hey, i want to ask a question in the forum
+- i want to get help in the forum
+- where can I find the forum
+- I have a problem
+- I need help with a problem
+- Can you help me to solve a problem?
 
-## synonym:conda
-- anaconda
+## intent:ask_why_contribute
+- why should I contribute to Rasa
+- why should I contribute
+- why should I help to improve Rasa
+- why contribute to Rasa
 
-## synonym:core
-- stack
+## intent:ask_how_contribute
+- how contribute to Rasa?
+- how can I contribute to Rasa
+- how help Rasa
+- how to improve Rasa
+- how can I improve Rasa
+- I want to help to improve Rasa
+- I want to make Rasa better
+- how can I support the community
+- what can I do
 
-## synonym:date
-- dates
+## intent:next_step
+- Take me to the next step
+- Next step
+- I want to go to the next step
+- Please take me to the next step
+- Next step please
 
-## synonym:developer
-- Developer
+## intent:explain
+- tell me more
+- could you please explain that
+- could you tell me more
+- give me more information please
+- could you please give me some more information
+- i want more information
+- what is the difference
+- can you tell me the difference
+- why
+- why is that
+- why do you need it
 
-## synonym:dialogflow
-- dialog flow
-- DialogFlow
-
-## synonym:distance
-- distances
-
-## synonym:duration
-- how long
-- durations
-
-## synonym:entity recognition
-- entity extraction
-
-## synonym:intent classification
-- intents
-- intent
-
-## synonym:luis
-- LUIS
-- LUIS.ai
-- luis.ai
-
-## synonym:money
-- amounts
-
-## synonym:name
-- names
-
-## synonym:organisation
-- companies
-
-## synonym:place
-- places
-
-## lookup:location
-  data/location
+## intent:ask_allen
+- How many yards was the second longest passing touchdown
+- Who kicked the most field goals
+- Which areas are tied for the highest truancy rates
