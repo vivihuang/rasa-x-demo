@@ -1,7 +1,19 @@
-ARG CORE_SDK_VERSION
+ARG CORE_SDK_VERSION=1.3.3
 FROM rasa/rasa-sdk:$CORE_SDK_VERSION
 
-# copy in your source code
-COPY main.py .
+ENV RASA_X_PASSWORD test
 
-CMD ["run", "python", "/app/main.py"]
+COPY requirements.txt ./
+
+RUN pip install --upgrade pip
+RUN pip install --upgrade setuptools
+RUN pip install -r requirements.txt
+
+COPY . .
+
+EXPOSE 5002
+
+RUN ["chmod", "+x", "./entrypoint.sh"]
+ENTRYPOINT ["./entrypoint.sh"]
+
+CMD ["start", "--actions", "actions.actions"]

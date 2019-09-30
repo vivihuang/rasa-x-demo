@@ -1,0 +1,17 @@
+version: '3'
+services:
+  rasa-x-demo:
+    build: .
+    container_name: 'rasa-x-demo'
+    environment:
+      - DucklingUrl=http://duckling:8000
+    ports:
+      - '5002:5002'
+    depends_on:
+      - duckling
+
+  duckling:
+    image: 'rasa/duckling'
+    container_name: 'duckling'
+    ports:
+      - '8000:8000'
