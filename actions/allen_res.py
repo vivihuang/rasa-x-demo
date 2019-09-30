@@ -7,7 +7,9 @@ logger = logging.getLogger(__name__)
 def get_allen_res(question: str) -> str:
     import requests as r
 
-    response = r.post("https://demo.allennlp.org/predict/reading-comprehension", json={
+    # allen_url = "https://demo.allennlp.org/predict/reading-comprehension"
+    allen_url = "http://10.205.8.22:8008/predict/reading-comprehension"
+    response = r.post(allen_url, json={
         "passage": read_txt_2_str(),
         "question": question
     })
