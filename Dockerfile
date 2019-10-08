@@ -3,6 +3,9 @@ FROM rasa/rasa-sdk:$CORE_SDK_VERSION
 
 ENV RASA_X_PASSWORD test
 
+RUN apt-get update
+RUN apt-get install -y lsof curl vim
+
 COPY requirements.txt ./
 
 RUN pip install --upgrade pip
