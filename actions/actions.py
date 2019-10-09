@@ -657,3 +657,26 @@ class AllenNlpAction(Action):
             dispatcher.utter_message(answer)
 
         return []
+
+
+class ActionAskJamie(Action):
+    """Returns the chitchat utterance dependent on the intent"""
+
+    def name(self):
+        return "action_ask_jamie"
+
+    def run(self, dispatcher, tracker, domain):
+        intent = tracker.latest_message["intent"].get("name")
+
+        # retrieve the correct chitchat utterance dependent on the intent
+        if intent in [
+            "1_sg_visa_info",
+            "2_visa_status_query",
+            "3_visa_application_online",
+            "4_visa_application_offline",
+            "passport_information_query",
+            "unknown_input",
+            "test",
+        ]:
+            dispatcher.utter_template("utter_" + intent, tracker)
+        return []

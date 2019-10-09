@@ -67,6 +67,14 @@ intents:
 - next_step
 - explain
 - ask_allen
+- 1_sg_visa_info
+- 2_visa_status_query
+- 3_visa_application_online
+- 4_visa_application_offline
+- unknown_input
+- passport_information_query
+- test
+- user_start_conversation
 entities:
 - job_function
 - company
@@ -84,6 +92,8 @@ entities:
 - location
 - email
 - number
+- nationality
+- city
 slots:
   budget:
     type: unfeaturized
@@ -628,6 +638,39 @@ templates:
       help you set up Rasa.
   utter_no_allen_res:
   - text: Sorry, we currently cannot find answer for this question 😞.
+  utter_user_start_conversation:
+  - text: Hello, this is Jamie, how can I assist you today?
+  - text: Hi, what can I do for you?
+  utter_test:
+  - text: No title at all
+    buttons:
+    - title: I feel lucky
+      payload: https://gooogle.com/ncr
+  utter_unknown_input:
+  - text: Sorry, I can't understand your input. Could you try again or write to ICA_SAVE_Helpdesk@ica.gov.sg
+      for assistance? Thank you for understanding.
+  - text: Jamie don't know how to assist you from here, could you write to ICA_SAVE_Helpdesk@ica.gov.sg
+      for assistance?
+  utter_1_sg_visa_info:
+  - text: Welcome to visit Singapore. What's your country / region?
+  utter_2_visa_status_query:
+  - text: Please provide your Visa Reference Number, e.g. ABC123456AB12345678
+  - text: Could you provide your visa application reference number, e.g. ABC123456AB12345678
+  - text: Please provide Applicant's Travel Document Number, e.g. passport number
+  - text: Could you provide the travel document number used in your application? For
+      example your passport number
+  utter_2_visa_status_approved:
+  - text: Your application is approved successfully, please download the copy. For
+      more information please visit [here](https://eservices.ica.gov.sg/ipsave/index.xhtml)
+  utter_3_visa_application_online:
+  - text: "I want to:\nApply for Entry Visa as a Local Contact(CorpPass)\nApply for\
+      \ Entry Visa as an Authorised Visa Agent\nApply for Entry Visa as a Strategic\
+      \ Partner\nApply for Entry Visa as a Local Contact(SingPass)\n\nFor more detail\
+      \ please visit [here](https://eservices.ica.gov.sg/esvclandingpage/save)"
+  utter_4_visa_application_offline:
+  - text: Sorry, I cannot locate your location, could you please provide your city?
+  utter_passport_information_query:
+  - text: What purpose for your passport
 actions:
 - utter_ask_faq_tutorials
 - utter_greet
@@ -805,6 +848,16 @@ actions:
 - action_next_step
 - action_explain_sales_form
 - action_get_allen_res
+- action_ask_jamie
+- utter_user_start_conversation
+- utter_test
+- utter_unknown_input
+- utter_1_sg_visa_info
+- utter_2_visa_status_query
+- utter_2_visa_status_approved
+- utter_3_visa_application_online
+- utter_4_visa_application_offline
+- utter_passport_information_query
 forms:
 - subscribe_newsletter_form
 - suggestion_form

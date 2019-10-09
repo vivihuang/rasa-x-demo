@@ -118,3 +118,5 @@ replicated.yml
 travis_gcloud_auth.json
 
 *.db
+
+.DS_Store
