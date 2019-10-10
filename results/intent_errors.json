@@ -1,0 +1,242 @@
+[
+  {
+    "text": "german?",
+    "intent": "ask_faq_languages",
+    "intent_prediction": {
+      "name": "enter_data",
+      "confidence": 0.20735496282577515
+    }
+  },
+  {
+    "text": "What languages can you use?",
+    "intent": "ask_faq_languages",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.4756433069705963
+    }
+  },
+  {
+    "text": "can someone help me with infos about the rasa platform",
+    "intent": "ask_faq_platform",
+    "intent_prediction": {
+      "name": "contact_sales",
+      "confidence": 0.3644128739833832
+    }
+  },
+  {
+    "text": "can i be shown a gluten free restaurant",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5037506818771362
+    }
+  },
+  {
+    "text": "i want a french restaurant",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4254961311817169
+    }
+  },
+  {
+    "text": "who are I ?",
+    "intent": "ask_whoami",
+    "intent_prediction": {
+      "name": "ask_whoisit",
+      "confidence": 0.4551307260990143
+    }
+  },
+  {
+    "text": "how were you made?",
+    "intent": "ask_builder",
+    "intent_prediction": {
+      "name": "ask_howbuilt",
+      "confidence": 0.6901541352272034
+    }
+  },
+  {
+    "text": "what is rasa core?",
+    "intent": "ask_whatisrasa",
+    "intent_prediction": {
+      "name": "how_to_get_started",
+      "confidence": 0.4289518892765045
+    }
+  },
+  {
+    "text": "talk to me!",
+    "intent": "ask_whatspossible",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.21568641066551208
+    }
+  },
+  {
+    "text": "are you a bot?",
+    "intent": "ask_whoisit",
+    "intent_prediction": {
+      "name": "ask_isbot",
+      "confidence": 0.6863157153129578
+    }
+  },
+  {
+    "text": "toodle-oo",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "enter_data",
+      "confidence": 0.944821834564209
+    }
+  },
+  {
+    "text": "k byyye #slay",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "enter_data",
+      "confidence": 0.8337887525558472
+    }
+  },
+  {
+    "text": "I want information about the platform",
+    "intent": "contact_sales",
+    "intent_prediction": {
+      "name": "ask_faq_platform",
+      "confidence": 0.6612746715545654
+    }
+  },
+  {
+    "text": "we built a bot with rasa but now we're interested in the platform",
+    "intent": "contact_sales",
+    "intent_prediction": {
+      "name": "ask_faq_platform",
+      "confidence": 0.5398497581481934
+    }
+  },
+  {
+    "text": "i want to learn more about Rasa Platform",
+    "intent": "contact_sales",
+    "intent_prediction": {
+      "name": "ask_faq_platform",
+      "confidence": 0.6682066917419434
+    }
+  },
+  {
+    "text": "i don't know",
+    "intent": "enter_data",
+    "intent_prediction": {
+      "name": "unknown_input",
+      "confidence": 0.49635007977485657
+    }
+  },
+  {
+    "text": "restaurants",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.3660931885242462
+    }
+  },
+  {
+    "text": "restaurant",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.37463921308517456
+    }
+  },
+  {
+    "text": "what?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_whatisrasa",
+      "confidence": 0.07493720948696136
+    }
+  },
+  {
+    "text": "why do you need that?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "explain",
+      "confidence": 0.3456036150455475
+    }
+  },
+  {
+    "text": "where do you live?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_wherefrom",
+      "confidence": 0.3819306492805481
+    }
+  },
+  {
+    "text": "what can I do with Rasa?",
+    "intent": "how_to_get_started",
+    "intent_prediction": {
+      "name": "ask_whatisrasa",
+      "confidence": 0.34929683804512024
+    }
+  },
+  {
+    "text": "WHAT IS RASA",
+    "intent": "how_to_get_started",
+    "intent_prediction": {
+      "name": "ask_whatisrasa",
+      "confidence": 0.4818030297756195
+    }
+  },
+  {
+    "text": "rasa stack",
+    "intent": "how_to_get_started",
+    "intent_prediction": {
+      "name": "install_rasa",
+      "confidence": 0.4264488220214844
+    }
+  },
+  {
+    "text": "how do slots work",
+    "intent": "technical_question",
+    "intent_prediction": {
+      "name": "ask_faq_slots",
+      "confidence": 0.23653529584407806
+    }
+  },
+  {
+    "text": "I want to move from LUIS.ai to Rasa",
+    "intent": "switch",
+    "intent_prediction": {
+      "name": "enter_data",
+      "confidence": 0.2174692004919052
+    }
+  },
+  {
+    "text": "luis.ai",
+    "intent": "switch",
+    "intent_prediction": {
+      "name": "enter_data",
+      "confidence": 0.944821834564209
+    }
+  },
+  {
+    "text": "I use wit.ai",
+    "intent": "switch",
+    "intent_prediction": {
+      "name": "enter_data",
+      "confidence": 0.6248298287391663
+    }
+  },
+  {
+    "text": "duckling",
+    "intent": "nlu_info",
+    "intent_prediction": {
+      "name": "technical_question",
+      "confidence": 0.2861786186695099
+    }
+  },
+  {
+    "text": "what can I do",
+    "intent": "ask_how_contribute",
+    "intent_prediction": {
+      "name": "ask_whatspossible",
+      "confidence": 0.20588929951190948
+    }
+  }
+]

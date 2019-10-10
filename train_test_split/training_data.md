@@ -1,0 +1,2161 @@
+## intent:1_sg_visa_info
+- Is visa needed for people from the [us](nationality)
+- I am from [China](nationality), and I want to apply a business visa
+- I am from India, I want to go to Singapore
+- How can I apply for a Singapore Visa?
+- I want to apply a Singapore Visa
+- I need a visa
+- I am from [China](nationality) and I want to apply a Singapore visa
+- I want to apply a business visa
+- I'm [Chinese](nationality), I want to apply a visa.
+- How can I get a Visa
+- I want to go to Singapore
+- What do I need to prepare when applying a Visa
+- I need some information about applying a visa
+- Hi, I want to travel to Singapore, I'm from [China](nationality)
+
+## intent:2_visa_status_query
+- How is my visa application going
+- Hi, I want to check my online visa application status
+- I want to know my visa status
+
+## intent:3_visa_application_online
+- Online visa application
+- I want to apply visa online
+
+## intent:4_visa_application_offline
+- Where is the nearest Singapore Overseas Mission?
+- I'd like to contact someone in person
+- I'm in [Chengdu](city), where is the nearest Singapore Overseas Mission
+- List all Overseas mission
+
+## intent:affirm
+- yas
+- confirm
+- amazing!
+- definitely yes without a doubt
+- sure
+- Sweet
+- fine
+- go for it
+- I'm sure I will!
+- yup
+- ok i accept
+- cool
+- I changed my mind. I want to accept it
+- cool!
+- sure thing
+- hm, i'd like that
+- Oh, ok
+- ok
+- yes
+- yes please
+- sure!
+- oh awesome!
+- yeah
+- yep
+- i accept
+- yop
+- how nice!
+- coolio
+- yes accept please
+- Yes
+- I accept
+- yes
+- jo
+- yep, will do thank you
+- nice
+- yay
+- accept
+- alright
+- Sure
+- ja
+- of course
+- yep if i have to
+
+## intent:ask_allen
+- What can ThoughtWorks deliver
+- How many employees does ThoughtWorks have now
+- Where did ThoughtWorks found
+- What are the goals of ThoughtWorks
+- What is the root of ThoughtWorks
+- What is ThoughtWorks
+
+## intent:ask_builder
+- Who produced you?
+- Who's your boss?
+- and who built u?
+- i want to get to know your owner
+- Who modeled you?
+- who is your creator?
+- please tell me who created you
+- tell me more about your creators
+- who had the idea to build you?
+- tell me more about your founders
+- Who thought to make you?
+- can you share your boss with me?
+- i want to know the company which designed you
+- Who owns you?
+- i want to know the company which generated you
+- who created you?
+- who is your boss?
+- please tell me the company who created you
+- Who's your builder?
+- who is your boss tell me
+- Who created you?
+- who build yoi
+- how were you made?
+- Who made you?
+- who built you?
+- where were you made?
+- which company brought you into existence?
+- who do you work for?
+- Who generated you?
+- who made you?
+- which company invented you?
+- Who is your programmer?
+- who had the idea to make you?
+- Who designed you?
+- Who fabricated you?
+- Who went through the trouble of setting you up?
+
+## intent:ask_faq_channels
+- which messaging channels are supported by rasa?
+- which particular messaging channels are supported by rasa?
+- Rasa supports some messaging channels, what are those?
+- Can you tell which messaging channels does rasa support?
+- DOES RASA SUPPORT MESSENGER?
+- what are the messaging channels that can be used with rasa?
+- DOES RASA SUPPORT SMS?
+- what are the channels Rasa NLU supports
+- which messaging channels does rasa support?
+- which messaging channels can I use with rasa?
+- rasa can use which different messaging channels?
+- Do you know which messaging channels rasa supports?
+- channels supported by Rasa
+- Channels
+- which messaging channels can be used with rasa?
+- What channels of communication does rasa support?
+- what channels do you support?
+- rasa supports which messaging channels?
+- which UI channel is used by Rasa ?
+- WHAT MESSAGING PORTALS DOES RASA SUPPORT?
+3
+## intent:ask_faq_community_size
+- do you have a large community
+- How large is the Rasa community
+- how big is your community?
+- how many people are using Rasa
+
+## intent:ask_faq_differencecorenlu
+- what would you say the difference is between [core](product) and [nlu](product)?
+- What makes [core](product) and [nlu](product) incompatible?
+- How does [nlu](product) contrast to [core](product)?
+- What sets [nlu](product) apart from [core](product)?
+- Do you know the difference between [core](product) and [nlu](product)?
+- How does [core](product) compare to [nlu](product)?
+- what is different about [core](product) compared to [nlu](product)?
+- What makes [core](product) distinct to [nlu](product)?
+- What makes [core](product) and [nlu](product) different?
+- How does [core](product) differ to [nlu](product)?
+- Is [nlu](product) different to [core](product) and, if so, how?
+- How do [core](product) and [nlu](product) differ?
+- what's the difference between [core](product) and [nlu](product)?
+- What does [core](product) offer that [nlu](product) does not?
+- What facts diverge [core](product) from [nlu](product)?
+- what differences exist between [core](product) and [nlu](product)?
+- what makes [core](product) different from [nlu](product)?
+- How do [core](product) and [nlu](product) conflict?
+- What are some ways that [nlu](product) is different from [core](product)?
+- What is the Similarities between [core](product) and [nlu](product)?
+- what is the difference between [core](product) and [nlu](product)
+- diffrence between rasa [core](product) and rasa [nlu](product)
+- what are the primary areas of difference between [core](product) and [nlu](product)?
+- List the dissimilar qualities of [core](product) and [nlu](product)
+- Do you know the difference between [core](product) and [nlu](product)?
+- what is the primary difference between [core](product) and [nlu](product)?
+- In what ways are [core](product) and [nlu](product) unalike?
+
+## intent:ask_faq_languages
+- need to use [portuguese](language)
+- Hello, rasa supports [spanish](language)?
+- your NLU understand [spanish](language)?
+- which languages supports rasa
+- What language u support?
+- which languages are supported?
+- which language do you support?
+- [german](language)?
+- support for serbian language
+- language
+- is it available in [Spanish](language)?
+- what language supported by rasa?
+- what language does rasa support?
+- What languages can you use?
+- languages supported
+- does Rasa support other languages like spanish?
+- Does rasa support different languages
+- what language supported by rasa ?
+- I want to add Romanian language support
+- chatbot language ?
+- I want Vietnamese language processing
+- which languages do you support
+- Can I use Rasa with Thai language
+- how many natural language that rasa supported?
+- which language can I use with rasa?
+- can I use rasa also for another laguage?
+
+## intent:ask_faq_opensource
+- How do I find out if rasa is open source?
+- is rasa open source?
+- would you call rasa open source software?
+- would people consider rasa an open source software?
+- is rasa a type of open source software?
+- is this open source license
+- The rasa software, is that open source?
+- would rasa be open source software?
+- would an example of open source software be rasa?
+- does rasa use open source software?
+- is the software rasa open source?
+- could I call rasa open source software?
+- is rasa software that is classified as open source?
+- would you consider rasa open source software?
+- Is Rasa a software formatted as open source?
+- is rasa an open source software?
+- Is the rasa software open source?
+- is rasa considered open source software?
+- Is rasa open source?
+
+## intent:ask_faq_platform
+- what is rasa platform
+- platform functionalities
+- Tell me about rasa platform
+- i want to learn more about Rasa Platform
+- can someone help me with infos about the rasa platform
+- tell me what is platform
+- what is the rasa platform
+- we built a bot with rasa but now we're interested in the platform
+- Can you tell me about the Platform?
+- what is the platform?
+- I want information about the platform
+- Tell me about your platform
+- what is platform
+- can you tell me about the platform?
+- tell me more about rasa platform
+
+## intent:ask_faq_python_version
+- what version of python
+- what version does python needs
+- Which python version should I install to run Rasa example?
+- which python do you support?
+- python version
+- which version of python do i need
+- what is python version required?
+- what python version do i install
+
+## intent:ask_faq_slots
+- help mi with slots
+- what is slots
+- how to keep button system for slot selection
+- how can we keep buttons to get slots
+- what are slots
+- Not sure what slots are?
+- In Rasa, what are slots used for?
+- slots are what exactly?
+- what do you think slots are?
+- tell me about slots
+- what do you mean by slots?
+- What is the definition of slots
+- slots
+- how slots are filled
+- where slots getting values
+- how slots are filled
+- What's the slots?
+- slots
+- what slots are there?
+- do you know what slots are?
+- I'd like to know the meaning of slots
+- which slots are there?
+- I need to know about slot filling
+- I dunno what a slot is
+- I need to know about slot filling
+- What are slots?
+- which are the slots?
+- how can we keep buttons to get slots
+- help mi with slots
+- how to keep button system for slot selection
+- what about slots
+- how to set text slot without mentioned json
+
+## intent:ask_faq_tutorials
+- i am looking for a tutorial
+- do you have tutorials
+- please show me a tutorial
+- i want a tutorial on rasa
+- i need a tutorial on how to use rasa
+- can you show me a tutorial
+- i would like to follow a tutorial
+- i need a rasa tutorial
+
+## intent:ask_faq_voice
+- rasa can't be used to build a voice bot, can it?
+- Do you know if I can build a voice bot using rasa?
+- What can I do to build a voice bot with rasa?
+- can i build a voice bot
+- How can I build my voice bot using rasa?
+- When is the best time to build a voice bot with rasa?
+- Can I build a rasa voice bot?
+- Building a rasa voice bot?
+- Is it possible to use rasa to build a voice bot?
+- I'd like to use rasa to build a voice bot.
+- Building a voice bot using rasa.
+- I could build a voice bot with rasa?
+- Can you build a voice bot using rasa?
+- What to do if I want to build a voice bot using rasa?
+- How could I construct a voice bot with rasa?
+- Is rasa suitable to build voice bots?
+- can rasa be used to build a voice bot?
+- It is possible to build a voice bot with rasa?
+- How to build a voice bot?
+- How can I build a voice bot with rasa?
+- I can build a voice bot with rasa, right?
+- Is rasa any good for building a voice bot?
+- i want to build a voice bot
+- Can one make a voice bot with rasa?
+- can a voice bot be built using rasa?
+- I'd like to build a voice bot with rasa.
+- Rasa voice bot building.
+- Is it possible to build a voice bot with rasa?
+- How to build a voice bot using rasa?
+- When can I build a voice bot using rasa?
+- Do you know how to build a voice bot with rasa?
+- Could I build a rasa voice bot?
+- How can I use to rasa to build a voice bot?
+- Will it be correct if I said I can build a voice bot with rasa?
+- what is the chance of building a rasa voice bot?
+
+## intent:ask_faq_what_is_forum
+- what is the forum
+- why should I join the forum
+- whats in the forum
+
+## intent:ask_how_contribute
+- how help Rasa
+- how contribute to Rasa?
+- how can I improve Rasa
+- how can I contribute to Rasa
+- how can I support the community
+- I want to help to improve Rasa
+- what can I do
+
+## intent:ask_howbuilt
+- Tell me how you were made?
+- I'd like to know how you were created
+- How exactly were you made?
+- How did they create you?
+- You originated through what means?
+- By what means were you made?
+- Do you know how you were made?
+- How were you made?
+- How exactly were you devised?
+- How were you made?
+- By what method were you fashioned?
+- How were you set up?
+- Do you know how you were built?
+- How were you made?
+- How did they make you?
+- How did they build you?
+- Can you give me an idea as to how you were created?
+- How were you constructed?
+- Can you say how you were constructed?
+- Can you explain how you were created?
+- I'd like to know how you were put together?
+- How were you built?
+- How did you come into being?
+- How were you made?
+- I want to know how you were formed
+- How were you conceived?
+- How were you devised?
+- How were you formed?
+- Specify how you were created?
+- How did you come to be?
+- In what way were you shaped?
+- What was the process for making you?
+
+## intent:ask_howdoing
+- how is it going
+- how is your day
+- Do you have a great day?
+- How's life treating you friend?
+- how's your day going
+- what about your day
+- What's up man
+- how have you been
+- how's life
+- What's new?
+- how is your day going
+- how are you doing this morning
+- how are things going
+- how are you doing?
+- What's up
+- are you alright
+- How's it hanging?
+- Is everything ok?
+- are you okay
+- How are you?
+- is everything okay
+- Do you feel good?
+- What's going on?
+- how do you do?
+- How was your day?
+- how are you doing
+- how are you doing today my sweet friend
+- how are u
+- how's life been treating you?
+- How's it going
+- How are you?
+- How are things?
+- what's good
+- is everything all right
+- are you having a good day
+- How've you been?
+
+## intent:ask_howold
+- how old were you when you celebrated your last birthday?
+- How old will you be on your next birthday?
+- when is your birthday?
+- how old?
+- How long have you been around?
+- what age were you when you celebrated your last birthday?
+- what's your age?
+- what year were you born?
+- Do you have friends the same age as you, if so, how old are they?
+- when were you born?
+- How many years have you lived?
+- How many years have you been alive?
+- how old will you be this year?
+- How old were you on your last birthday?
+- What will be your age on your next birthday?
+- What year were you born?
+- How many candles were on your last birthday cake?
+- can you tell me your age?
+- How long have you occupied the earth?
+- whats your birth year?
+- whats your age?
+- How long have you been alive?
+- What is your age?
+- what age are you
+- what is your exact age?
+- Whats your age?
+- tell me your age?
+- Tell me your day, month and year of birth.
+- When do you celebrate your day of birth?
+- and you are how many years old?
+
+## intent:ask_isbot
+- are you bot
+- you are ai
+- are you rasa bot?
+- are you a BOT
+- are you a chatbot
+- you are a robot
+- are you a rasa bot?
+- are you a robot
+- are you a robot
+- So I'm here Today to ask [one](number:1) very simple question, what are you ?
+- cuz you are a bot
+- are you really a bot
+- are you a rasa bot?
+- are you artificial
+- are you sure that you're a bot?
+- are you ai
+- are you a bot ?
+- What are you ?
+- are you bot?
+- are you real lol
+- are you a bot
+- are you real
+- Ar you a bot ?
+- you are chatbot
+- oh are you chatbot?
+- are you a bot?
+- are you artificial intelligence
+- what are you, a bot?
+- Are you the bot?
+
+## intent:ask_languagesbot
+- Which languages do you speak?
+- How many languages do you know?
+- what foreign languages do you know?
+- What languages can you use?
+- What are the languages you can speak?
+- what languages you can speak ?
+- What languages can you communicate in?
+- Do you know any other languages?
+- What languages are you fluent in?
+- are you bilingual?
+- what foreign languages are you fluent in?
+- What languages do you speak?
+- what languages do you know?
+- are you multilingual?
+- what else do you know besides English?
+- what languages you can handle well?
+- What languages can you converse in?
+- Which languages are you familiar with?
+- Speak any other languages?
+- What languages do you know?
+- what languages are you familiar with?
+- Can you communicate in any other languages?
+- what languages you prefer more speaking at?
+- Do you speak any other languages?
+- In which languages can you speak?
+- do you speak any other languages?
+- What languages do you know?
+- what languages you can be comfortable speaking?
+- In which languages are you fluent?
+
+## intent:ask_question_in_forum
+- Can you help me to solve a problem?
+- I have a problem
+- I need help with a problem
+- Hey, i want to ask a question in the forum
+
+## intent:ask_restaurant
+- I need a restaurant.
+- Where is the restaurant
+- Could you find a restaurant for me?
+- help me find restaurant
+- Find a restaurant for me?
+- How can you help me find a restaurant.
+- can i be shown a gluten free restaurant
+- Find me a restaurant where I can eat.
+- Pick a restaurant for me, please
+- Help me find a restaurant
+- Can you find a restaurant for me?
+- Hey help me find a restaurant
+- I need a new restaurant
+- What's the closest restaurant open near me
+- Would you find me a restaurant?
+- Can you find me a restaurant?
+- I'm gonna need help finding a restaurant
+- i'm looking for a Chinese restaurant
+- Can you recommend a restaurant open right now
+- Show me how to find a restaurant
+- Show me the closest open restaurant
+- Suggest me a good restaurant around
+- restaurants
+- Find a restaurant for me to eat at.
+- I am hungry, find me some place to go
+- Would you find a restaurant for me?
+- Help me with finding this restaurant
+- Recommend me a restaurant around here.
+- Could you find me a restaurant to eat at?
+
+## intent:ask_time
+- Time?
+- Do you know what time it is?
+- Could you tell me the time?
+- Time, please!
+- Hi, I need the time.
+- Do you know the time?
+- What is the current time?
+- what is time is US ?
+- Do you know what time it is?
+- Could you tell me the time, please?
+- Pardon me, but do you know the time?
+- What's the time right now?
+- Do you know the time?
+- What's the current time?
+- Excuse me, what time is it?
+- what is time is USA ?
+- Would you tell me what time it is?
+- What might the time be?
+- what is time in US ?
+- What is the hour and minute right now?
+- Do you have the time?
+- what is the time ?
+- Can you give me the time?
+- What's the time?
+- Can you tell the time?
+- what time it is
+- what is the time in Sydney?
+- What time have we got?
+- Give me the time.
+- what is the current time?
+- I need to know what time it is.
+- Tell me the time.
+- What time is it right now?
+- Can you tell me the time?
+
+## intent:ask_weather
+- Is it humid out there today?
+- What's the weather like?
+- Will I require my raincoat today?
+- Are there any meteorological changes that I need to be aware of?
+- is the sun out where zou are?
+- hows the weather in bot world
+- is it sunny
+- how is the weather in berlin?
+- Is it raining?
+- Beautiful day, isn't it?
+- How is the weather today?
+- What is the weather for tomorrow?
+- whats the weather like tomorrow
+- what's the weather today?
+- Will the skies be clear today?
+- how's the weather?
+- is the sun out where you are?
+- what's the weather like where you are?
+- how's the weather in berlin
+- What's it like out there?
+- How is the weather?
+- Can we expect any thunderstorms?
+- Looks like a beautiful day hey?
+- whats the weather in berlin?
+- Is it hot or cold?
+- What is the temperature today?
+- what"s the weather
+
+## intent:ask_whatismyname
+- Can you tell me what I am called?
+- Tell me my name.
+- May i know my name?
+- Please let me know what my name is
+- What do I call myself?
+- What is my first name?
+- What would be the name on my tombstone?
+- What do people call me?
+- Can you tell me my name?
+- What is my name?
+- I'd like to know what my name is
+- Do I have a name? What is it?
+- Inform me what my name is
+- What do my colleagues call me?
+- I have a name, what is it?
+- what is my name?
+- I'd like to know my name
+- What am I called?
+- can you tell me my name?
+- Say my name.
+- What name should I recognize for myself?
+- Do you know my name?
+- Explain my name to me.
+- What was I named?
+- What is my name?
+- What does everyone call me?
+- What is the name I was given?
+- What name do I go by?
+- Do I have a name?
+- What is my full name?
+
+## intent:ask_whatisrasa
+- what is rasa
+- explain me what rasa does
+- can you pls explain what rasa does
+- i want to know what rasa does
+- I want to know what rasa actually does that isn't clear to me yet
+- what do you guys do at rasa
+- What do you do as a company?
+- I want to learn what rasa is
+- i havent understood yet what rasa actually is
+- i want to learn something about rasa
+- what can i build with rasa core?
+- i dont get what rasa is
+- What is rasa doing exactly?
+- tell me more about your company
+- tell me more about rasa
+- What do you do at Rasa?
+- what is rasa actually
+- Can you tell me what Rasa does?
+- What is Rasa?
+- tell me more about rasa
+- what is rasa?
+- what does rasa do?
+- what does rasa do
+- explain me what rasa is
+- what can i do with rasa
+- what is rasa core?
+
+## intent:ask_whatspossible
+- I need some help
+- so what next?
+- can you do anything else?
+- what is this bot for
+- um what now
+- talk to me!
+- what are the options?
+- what can i do now
+- show me the menu
+- i asked you if you can do anything else
+- how can you help me
+- what can I do with this bot
+- cool! can I do something else here?
+- so what can you do
+- anything els
+- Great, is there anything else you can do, bot?
+- help me
+- what can I do here
+- so what can you help me with?
+- what else can I do here?
+- come back
+- what are you good at?
+- help please
+- so now what
+- hm that doesnt quite help me is there anything else you can do?
+- what else can i do
+- now what?
+- help
+- i don't know what i want
+
+## intent:ask_when_next_event
+- what's the next rasa event
+- whats the next community event
+- do you have an event in [Berlin](location)
+- is there a Rasa event in [San Francisco](location)
+- is there a event in [Montreal](location)
+- when is the next usergroup
+
+## intent:ask_wherefrom
+- Where did you grow up?
+- What state were you born in?
+- What city were you born in?
+- What area are you from?
+- Where are your origins?
+- Where do you consider home?
+- Where did you come from?
+- What location are you from?
+- So where are you from
+- From where did you come?
+- where are you from?
+- Where are your roots?
+- Do you know where you come from?
+- where did you come from?
+- Where from?
+- What city do you claim to for your birth?
+- what country are you from?
+- What is your heritage?
+- where did you spend your youth?
+- are you from around here?
+- Where were you at before you were here?
+- Where were you born?
+- Where are you?
+- Where do you come from?
+- What is your origin?
+- where did you grow up?
+- Where did you originate?
+- Where did you grow up?
+- What is your root?
+- What is your birthplace?
+
+## intent:ask_which_events
+- Where can I meet Rasas
+- i want to meet Rasa
+- is there a meetup
+- Which community events do you have
+
+## intent:ask_whoami
+- who am i
+- Tell me who I am.
+- Tell me who I am?
+- Tell me who am I?
+- WHo am I
+- Who am I?
+- can you tell me what I am?
+- what's my identity?
+- Okay who am I?
+- Shall i know who am i?
+- Do you know who I am?
+- How do I discover who I am?
+- Do you know who am I?
+- How can I determine who am I?
+- How do I identify myself?
+- tell me who I am?
+- How can I determine who I am?
+- can you tell me who I am?
+- tell me what my identity is?
+- who may i ?
+
+## intent:ask_whoisit
+- who are y
+- who is this?
+- who is this
+- who is talking?
+- who are u?
+- are you a bot?
+- who are you and what do you want from me
+- who speaks?
+- what's your name
+- what's your name bot
+- who are you
+- who r u
+- what are you called?
+- whats ur name
+- who am i speaking with
+- yes but who are you in your heart
+- who am i talking to
+
+## intent:ask_why_contribute
+- why should I contribute to Rasa
+- why should I help to improve Rasa
+- why should I contribute
+
+## intent:bye
+- bye was nice talking to you
+- k byyye #slay
+- good bye
+- bye
+- toodle-oo
+- bye for now
+- catch you later
+- bye bye bot
+- bye udo
+- bye bye
+- goodnight
+- farewell
+- then bye
+- bye!
+- tlak to you later
+- gotta go
+- ciao
+- bye bot
+
+## intent:canthelp
+- you can't help me with what i need
+- stop
+- you can't help me
+- nothing else?
+- you cannot help me with what I want
+- ok then you cant help me
+- I think you cant help me
+- i guess you can't help me then
+- this is leading to nothing
+- and you call yourself bot company? pff
+- ok i guess you can't help me
+- ok, but that doesnt help me
+- do you get anything?
+- that's not what i want
+- stop go back
+
+## intent:contact_sales
+- contact call with sales
+- id like to talk to someone who can explain me what i can do with rasa
+- I would like to talk to someone from your sales team
+- we started working with rasa but now we need support
+- request sales team
+- talk to sales team
+- request a call
+- i want to buy the rasa platform
+- i want to contact sales now
+- i want someone to call me
+- Ok I want to talk to your sales team immediately
+- can you connect me to sales
+- obviously talk to your awesome sales team
+- Can I have a call tomorrow at 3pm?
+- ok sales
+- I want to speak with sales
+- let me talk to your sales people
+- i need a call from sales
+- i want to connect to your sales team
+- Please schedule a sales call
+- can someone help me with infos about the rasa platform
+- sales pl
+- hm ok then i want to talk to the sales dude
+- I want an offer for your platform
+- I wanna talk to your sales people.
+- sales department
+- how does your pricing work?
+- I want to book a call with your sales team
+- i need to talk to sales
+- have a call with the sales team
+- connect to the sales team
+- let me talk to sales
+- i want to connect to sales
+- sales
+- i want to call
+- sales call
+- let me talk to your sales guys
+- I want to contact the sales team
+- can i talk to your disagreeable sales man?
+- i need the call request
+- let me have the call
+- connect to sales
+- can i speak to the sales team
+- I want to talk to your sales team
+- I wanna talk to your sales guy
+- contact sales for me
+- call
+- contact sales
+- are there different packages customers can book?
+- sales team connection
+- Sales
+- Can I have a call?
+- i want to contact your sales team
+- i want to contact sales
+- sales contact
+- let me talk to your sales people!
+- i want to be connected to your sales team
+- but I want a sales call
+- request call with sales team
+- lets talk to sales
+- call sales
+- I want to talk to your sales people
+- let' contact sales now
+- connect me to your sales department
+- i want a sales call
+- can i talk to a sales representative
+- give me someone who can explain your business model
+- i want to be in touch with sales
+- request sales call
+- get me the sales team
+- contact sales
+- I would like to contact your sales team please
+- id like a call please
+- sales team
+- I would like to have a call with sales team
+- I want to learn more about your pricing
+- let me call the sales team
+- I want to talk to someone about your pricing system
+- I want to talk with sales about our project
+- i need to know how i can book support
+- a call
+- i'd like to talk to a sales person
+- can i get a ssales call
+- book a sales call
+- i want to talk to sales
+- I want to get in touch with your sales guys
+- we built a bot with rasa but now we're interested in the platform
+- I want to contact sales
+- I want information about the platform
+- i want to have a call with sales
+- i choose the call with sales
+- let me contact sales
+- I want a sales call
+- Please connect me to someone from sales
+- have a call
+- But I wanted a sales call
+
+## intent:deny
+- nah
+- never
+- i don't want to
+- no and no again
+- i don't want either of those
+- no way
+- No, not really.
+- no i don't accept
+- definitely not
+- no ma'am
+- no I haven't decided yet if I want to sign up
+- nein
+- i guess it means - no
+- I don't want to give it to you
+- nah thanks
+- deny
+- i'm not sure
+- no sorry
+- no!!!!
+- no sir
+- I'm not going to give it to you
+- no thanks
+- no i can't
+- never mind
+- NEIN
+- not really
+- no
+- no you did it wrong
+- I'm not giving you my email address
+- no go
+
+## intent:enter_data
+- the name of the company is oov
+- i'm a [developer](job_function)
+- user can communicate with the bot in [spanish](language)
+- i don't think either of those
+- juste@juste.com
+- klausimausi@apple.com
+- I spend money
+- i'd like to build a transformer
+- volodimir@rasa.com
+- the language of the ai assistant is [portuguese](language)
+- [Denise Perry](name)
+- I'm [Tom Miller](name)
+- it is in [german](language)
+- it’s trained only in [french](language)
+- so far it only speaks [italian](language)
+- my job function is [developer](job_function)
+- it’s an [english](language) bot
+- the assistant speaks [portuguese](language)
+- [Linda](name)
+- i work in [biz dev](job_function)
+- my bot is in [italian](language)
+- language: [dutch](language)
+- junk@junk.com
+- saswatkarhar@rediffmail.com
+- bigassnerd@rasa.com
+- a bot
+- [Developer Advocate](job_function)
+- my email is khardik.kmosu@bol.net.in
+- I’ve trained it in [spanish](language)
+- it’s an [spanish](language) bot
+- akela@akela.com
+- language = [portuguese](language)
+- so far it only speaks [dutch](language)
+- can you try alex+123@rasa.com instead?
+- [rasa](company)
+- [Tyler](company)
+- i don't have one
+- 10000000
+- language = [mandarin](language)
+- all the training data was in [mandarin](language)
+- test@test.com
+- My email is oov
+- the language of the ai assistant is [spanish](language)
+- until now it’s only in [chinese](language)
+- the people speak [english](language)
+- we plan to build a sales bot to increase our revenue by 100%.
+- my email is markjobs@ibm.com
+- help@help.com
+- [Helvetia](company)
+- [Bob Geldorf](name)
+- schnuffelknuddelbaerchen33@rasa.de
+- [volodimir voldemarich](name)
+- it’s in [dutch](language)
+- i'm a [race car driver](job_function)
+- I'm a [product manager](job_function)
+- not sure yet, we plan with 50 thousand euro at the moment
+- schlabberjimmy@glibberglitter.edu
+- i want to build a health bot
+- [CSI](company)
+- yesplease@yes.com
+- my name is [linda](name)
+- its an [italian](language) bot
+- linda@yoloyolo.de
+- it’s an [italian](language) bot
+- all the training data was in [english](language)
+- my name is [marc](name)
+- My name is [Alex](name)
+- it's 500000000
+- so far it only speaks [portuguese](language)
+- 100000
+- my email is email@rasa.com
+- the assistant speaks [dutch](language)
+- valid_email@one.de
+- [Zendesk](company)
+- user can talk to my bot in [chinese](language)
+- [dutch](language)
+- user can talk to my bot in [french](language)
+- The name of the company is [Daimler](company)
+- [Ali Park](name)
+- [Juste](name)
+- nerd@stanford.edu
+- [ACME Mops](company)
+- its an [mandarin](language) bot
+- [Rasa](company)
+- language: [english](language)
+- its an [dutch](language) bot
+- chief lemonade officer
+- im a [dev](job_function)
+- linda@rasa.ai
+- [Max Meier](name)
+- [manager](job_function)
+- the bot should help with HR stuff
+- 400 trilion
+- 200k
+- akela's company
+- I work for oov
+- user can communicate with the bot in [italian](language)
+- 2000k
+- lead generation
+- udo@udo.ai
+- mail: julianfrank@hotmail.com
+- i'm in [customer success](job_function)
+- maybe then instead alex+rasarasa@rasa.com
+- I want to use [pip](package_manager)
+- 1 million
+- I work in [innvoation](job_function)
+- it’s an [german](language) bot
+- [Philip](name)
+- it is in [mandarin](language)
+- my bot is in [french](language)
+- I’ve trained it in [mandarin](language)
+- My name is [Tom](name)
+- hey@kldpeffesfoken.oinwf
+- the assistant is in [chinese](language)
+- so far it only speaks [mandarin](language)
+- until now it’s only in [english](language)
+- it speaks [mandarin](language)
+- not sure yet
+- 75000-150000 euro
+- [dutch](language) is the language of my bot
+- [AI researcher](job_function)
+- [portuguese](language)
+- none@none.co.uk
+- its an [chinese](language) bot
+- I am a [head of business intelligence](job_function)
+- I work for the [new york times](company)
+- language = [german](language)
+- it’s available in [french](language)
+- I'm a [construction worker](job_function)
+- I'm a [janitor](job_function)
+- 120000
+- [vodafone](company)
+- I'm [project manager](job_function)
+- I want to build a bot
+- [developer advocate](job_function)
+- user can communicate with the bot in [german](language)
+- health care
+- it is in [dutch](language)
+- it’s an [french](language) bot
+- 5 quid
+- the language is [italian](language)
+- I'm a [python developer](job_function)
+- moabit@yoga.com
+- 60 million INR
+- [Jim](name)
+- [companies](entity:organisation)
+- [italian](language) is the language of my bot
+- i wanna build all the bots
+- alexander.denker@tu-berlin.de
+- [conda](package_manager)
+- I’ve trained it in [german](language)
+- language: [mandarin](language)
+- user can talk to my bot in [dutch](language)
+- [BCG brazil](company)
+- im in [marketing](job_function)
+- [Jim Halpert](name)
+- [developer](job_function)
+- 200000000
+- like 60 quid
+- hi@rasa.com
+- it’s trained only in [english](language)
+- the language of the ai assistant is [italian](language)
+- 50,000 dollar
+- [Juste P](name)
+- it's [akela](name)
+- 100k
+- it speaks [english](language)
+- [dev](job_function)
+- it’s available in [chinese](language)
+- user can communicate with the bot in [mandarin](language)
+- it’s only in [spanish](language) but I plan to train it in other languages
+- the assistant speaks [french](language)
+- the assistant speaks [italian](language)
+- [SAP](company)
+- nothing
+- please [conda](package_manager)
+- [akela propella](name)
+- valid@one.email
+- it’s available in [german](language)
+- the people speak [spanish](language)
+- i'm a [develope](job_function)
+- don't have one
+- it's a small company from the US, the name is [Microsoft](company)
+- language = [italian](language)
+- so far it only speaks [spanish](language)
+- A wolf bot
+- [Akela](name)
+- [ACME brands](company)
+- I want to build an FAQ bot
+- Evaluate Rasa :-)
+- [Meredith Grey](name)
+- it’s an [dutch](language) bot
+- language = [spanish](language)
+- the bot speaks [chinese](language)
+- I work for [Bayer](company)
+- one that flatters me every morning
+- language: [italian](language)
+- my name is [loretta meier](name)
+- I work in [project management](job_function)
+- the language of the ai assistant is [dutch](language)
+- bot-fan@bots.com
+- language = [french](language)
+- 1 euro
+- it’s only in [english](language) but I plan to train it in other languages
+- all the training data was in [italian](language)
+- user can talk to my bot in [german](language)
+- [chinese](language) is the language of my bot
+- [BCG digital ventures](company)
+- [Bolschewistische Kurkapelle Schwarz-Rot](company)
+- [Al Capone](name)
+- it’s only in [italian](language) but I plan to train it in other languages
+- [linda](name)
+- i don't have it
+- 240k/year
+- none
+- get [dates](entity:date) from messages
+- [engineer](job_function)
+- [mandarin](language)
+- a sentient robot
+- I wrote it in [spanish](language)
+- [BBC](name)
+- 10 m
+- a big ol transformer
+- I wrote it in [german](language)
+- I wrote it in [dutch](language)
+- I work for [Stanford University](company)
+- it’s an [portuguese](language) bot
+- I’ve trained it in [dutch](language)
+- 50k
+- it’s trained only in [dutch](language)
+- it speaks [french](language)
+- [philipp company](company)
+- the people speak [dutch](language)
+- until now it’s only in [german](language)
+- [english](language) is the only language but I want to add more
+- [head of biz deve](job_function)
+- hello@hello.com
+- 500 million
+- i have about 200 bucks in my savings account
+- chief nerd at rasa technologies
+- linda@mail.com
+- shiba@shiba.com
+- I'm the boss
+- a turtle
+- it is in [italian](language)
+- i want to build a bot about me
+- im a [developer](job_function)
+- one trillion dollar
+- I wrote it in [portuguese](language)
+- until now it’s only in [spanish](language)
+- the language of the ai assistant is [english](language)
+- it’s only in [mandarin](language) but I plan to train it in other languages
+- we're building a conversational assistant for our employees to book meeting rooms.
+- I want to build a lot of different bots
+- the language of the ai assistant is [french](language)
+- philipp@superphilipp.philipp
+- [Jenny](name)
+- it’s in [french](language)
+- the language is [dutch](language)
+- 123@akela.com
+- until now it’s only in [mandarin](language)
+- it’s trained only in [spanish](language)
+- herbert@gmail.com
+- the language of the ai assistant is [chinese](language)
+- the language is [german](language)
+- I’ve trained it in [french](language)
+- i don't know
+- it’s trained only in [german](language)
+- it’s available in [portuguese](language)
+- badass bot tester
+- [ceo](job_function)
+- [spanish](language)
+- it speaks [spanish](language)
+- bot-fan@bots.com
+- bout 4,000,000 INR
+- picking my nose
+- [growth manager](job_function)
+- [klaus klausson](name)
+- so far it only speaks [english](language)
+- there is no budget
+- Rasa bot
+- j@p.com
+- i am [self emplayed](job_function)
+- I would like to build an ice cube dispenser bot
+- the language is [portuguese](language)
+- 5 mln
+- a sales bot
+- I wanna build a super bot to send me cute animal pictures
+- it’s only in [french](language) but I plan to train it in other languages
+- the assistant speaks [english](language)
+- on that will get me promoted
+- [Victoria McMillan](name)
+- [Susan Catterfeld](name)
+- [brand manager](job_function)
+- it's the [moabit yoga studio](company)
+- 5 euros
+- [Product Manager](job_function)
+- user can talk to my bot in [english](language)
+- language: [portuguese](language)
+- [french](language) is the only language but I want to add more
+- it speaks [portuguese](language)
+- so far it only speaks [french](language)
+- I work as a [project manager](job_function)
+- the assistant is in [french](language)
+- something to talk to my friends while I'm busy working
+- 5 bucks
+- I'm the [lead engineer](job_function)
+- I work at the [NYT](company)
+- it speaks [dutch](language)
+- 0
+- tamedmouse@micerevolution.fr
+- [product manager](job_function)
+- a [place](entity)
+- [french](language)
+- [Ann Snyder](name)
+- our estimation is 10k
+- it’s available in [italian](language)
+- [CTO](job_function)
+- I am a [Data Scientist](job_function)
+- [mandarin](language) is the language of my bot
+- loretta@strawberry-ice.come because I work in the department for strawberry ice
+- the ice cream factory is the company
+- a cool bot
+- I'm a real good [engineer](job_function)
+- I'm a [full stack developer](job_function)
+- problem solving
+- an akela bot that I can talk to akela all the time
+- SCALABLE MINDS (company)
+- [philipp](name)
+- a cool boy
+- we plan with 250.000 euro for one year
+- it’s available in [english](language)
+- i'm [donezo](name)
+- it is in [english](language)
+- my bot is in [chinese](language)
+- [italian](language)
+- a bot which sends cute shiba pictures
+- it's foo@bar.com
+- the bot speaks [spanish](language)
+- language = [dutch](language)
+- [english](language) is the language of my bot
+- 100000k
+- the language of the ai assistant is [german](language)
+- [Alex](name:alex)
+- I want to build a kick ass bot
+- [Udo.AI](company)
+- language = [chinese](language)
+- [how long](entity:duration)
+- ok its email@email.com
+- 50,000,000 INR
+- it’s trained only in [italian](language)
+- we think 4 million INR/ year
+- the [New York Times](company)
+- ACME bank (company)
+- [data analyst](job_function)
+- An ice cube bot
+- I'm the [developer](job_function)
+- [designer](job_function)
+- [Bosch](company)
+- [No company](company)!!
+- the people speak [portuguese](language)
+- ok I'm actually an [engineer](job_function)
+- it’s in [german](language)
+- [Ralph White](name)
+- the language is [spanish](language)
+- i have none
+- it speaks [italian](language)
+- it speaks [german](language)
+- santaklaus@googlemail.com
+- it’s trained in [portuguese](language)
+- I want to build a sales bot
+- [Developer](job_function:developer)
+- I work for the [AI research group of the turing centre of the UBC, Vancouver, Canada](company)
+- the assistant speaks [german](language)
+- a insurance tool that consults potential customers on the best life insurance to choose.
+- big old bot
+- [clue](company)
+- how much [money](entity)
+- I'm in [project mgmt](job_function)
+- until now it’s only in [portuguese](language)
+- the bot like you
+- elise@gmail.com
+- i'm a [product manager](job_function)
+- idk
+- it’s trained only in [chinese](language)
+- My email is linda@linda.linda
+- [John Smith](name)
+- [t-mobile US](company)
+- the bot that helps you choose insurance for the car ;)
+- around 200k
+- its an [english](language) bot
+- 2 euro
+- £50k
+- my name is [saswat](name)
+- i'm a [dev](job_function)
+- [akela](name)
+- I wrote it in [french](language)
+- [distances](entity:distance)
+- it’s in [portuguese](language)
+- [Alex Karev](name)
+- oov per year
+- user can talk to my bot in [italian](language)
+- my emayl is yolo at yolo.de
+- the bot speaks [portuguese](language)
+- [James](name)
+- $1
+- my name is [oli miller](name)
+- my email is kevin@yoloooz.de
+- I'm [Akela](name)
+- a pizza bot
+- [mandarin](language) is the only language but I want to add more
+- None
+- one that will get me promoted
+- 100k
+- i'm in [marketing](job_function)
+- it’s trained in [dutch](language)
+- I want to build a health insurance bot
+- it’s trained in [german](language)
+- the bot speaks [dutch](language)
+- linda@linda.com
+- it is in [chinese](language)
+- [german](language)
+- [IBM](company)
+- jimmy neutron industries
+- my function is [to serve butter](job_function)
+- conversational
+- 123@skdv.fvsdj
+- a health bot
+- [Freya](name)
+- [Elise](name)
+- 500k
+- the [distance](entity) between places
+- 1 million big ones
+- maxmeier@firma.de
+- ames@rasa.com
+- my bot is in [spanish](language)
+- [Alan](name)
+- it speaks [chinese](language)
+- half a million
+- it’s only in [chinese](language) but I plan to train it in other languages
+- the language of the ai assistant is [mandarin](language)
+- extracting [durations](entity:duration)
+- 10000k
+- the assistant is in [mandarin](language)
+- between 100 to 200.000
+- I wrote it in [english](language)
+- 150,000 USD
+- me@me.com
+- the assistant is in [german](language)
+- my bot is in [mandarin](language)
+- user can talk to my bot in [mandarin](language)
+- 90k
+- 123@gmail.com
+- I'm an [AI researcher](job_function)
+- [akilla](name)
+- user can communicate with the bot in [portuguese](language)
+- 300k number
+- my bot is in [dutch](language)
+- [microsoft](company)
+- I'm a [business woman](job_function)
+- [Mr. Mop](name)
+- I do not know yet
+- the [distance](entity) from one place to an other
+- until now it’s only in [french](language)
+- a customer service support system
+- I wrote it in [chinese](language)
+- unemployed
+- [pip](package_manager) please
+- the assistant speaks [spanish](language)
+- i want to built a philipp bot
+- user can communicate with the bot in [dutch](language)
+- [reddit](company)
+- i want to build a bot
+- i am interested in [ordinals](entity)
+- I'm an [engineer](job_function)
+- [CEO](job_function)
+- [spanish](language) is the language of my bot
+- it’s available in [mandarin](language)
+- its an [spanish](language) bot
+- the bot speaks [mandarin](language)
+- no idea
+- I'm a [developer](job_function)
+- about 10 k
+- akela@philipp.com
+- it’s in [chinese](language)
+- [I am a freelancer](company)
+- the people speak [mandarin](language)
+- one like this
+- [portuguese](language) is the language of my bot
+- I am responsible for our [innovation department](job_function)
+- We plan to build a sales bot to increase our sales by 500%.
+- the people speak [french](language)
+- 150,000$/ year
+- i sell turtles
+- it is in [portuguese](language)
+- i want to build an insurance bot
+- the people speak [italian](language)
+- I'm a [project manager](job_function)
+- its an [german](language) bot
+- [wurst co kg](company)
+- the bot speaks [english](language)
+- user can communicate with the bot in [chinese](language)
+- my bot is in [english](language)
+- a bot to get a promotion
+- [pip](package_manager)
+- [amounts](entity:money)
+- it’s only in [german](language) but I plan to train it in other languages
+- The master of desaster
+- [chinese](language)
+- its an [french](language) bot
+- al@acme.org
+- [places](entity:place)
+- it’s trained in [english](language)
+- until now it’s only in [italian](language)
+- it’s in [spanish](language)
+- Herbert
+- I work as a [frontend dev](job_function)
+- [COO](job_function)
+- one bot
+- user can talk to my bot in [spanish](language)
+- a chocolate bot
+- [dutch](language) is the only language but I want to add more
+- the assistant is in [english](language)
+- the assistant is in [portuguese](language)
+- [english](language)
+- until now it’s only in [dutch](language)
+- [accenture](company)
+- [sales manager](job_function)
+- user can communicate with the bot in [english](language)
+- help@rasa.com email
+- [spanish](language) is the only language but I want to add more
+- the language is [chinese](language)
+- elise
+- [Udo](name)
+- I'm a [machine learning engineer](job_function)
+- maxmeier@firma.de
+- it’s in [italian](language)
+- I wanna build a bot that sends the people cute animal pictures based on their favorite color
+- [Club Mate](company)
+- ulrikovitch eisenkleber
+- I'm a [software engineer](job_function)
+- it’s trained only in [mandarin](language)
+- mrmop@mops.app
+- one billion
+- [italian](language) is the only language but I want to add more
+
+## intent:explain
+- i want more information
+- why is that
+- what is the difference
+- tell me more
+- could you please explain that
+- why do you need it
+- could you tell me more
+- could you please give me some more information
+
+## intent:greet
+- hi?
+- hey hey
+- ayyyy whaddup
+- Hello
+- helloooo
+- hi Mister
+- Hallo
+- jop
+- hey, let's talk
+- I said, helllllloooooO!!!!
+- heeey
+- hello it is me again
+- Hi
+- good evening
+- good morning
+- Whats up my bot
+- hey bot!
+- jojojo
+- hey there
+- hello there
+- hi friend
+- Well hello there ;)
+- hi again
+- hello sweet boy
+- hi
+- hi there
+- hi
+- hello everybody
+- Hei
+- whats up
+- hello is anybody there
+- hi hi
+- hi there it's me
+- Good morning
+- Hey bot
+- hello friend
+- howdy
+- hallo
+- hey bot
+- hello
+- hello sweatheart
+- hey dude
+- hello robot
+- heyo
+- good afternoon
+- yoo
+- hi there
+- hellooo
+- heyho
+- hello?
+- hi folks
+- hey let's talk
+- Hey
+
+## intent:how_to_get_started
+- how do i learn rasa [core](product)
+- how can I learn rasa
+- what is [nlu](product)
+- how about [nlu](product)
+- how to learn rasa [stack](product:core)
+- WHAT IS IT
+- what is this [nlu](product) thing?
+- how to build a bot?
+- what can I do with Rasa?
+- how do I train rasa [nlu](product)
+- can i just test features without having to deal with your predefined conversation
+- how do I get started with Rasa
+- can you guide me know to create knowledge base chatbot
+- I want to learn about rasa [core](product)
+- how to get started with [nlu](product)
+- i want to learn about rasa [core](product)
+- give me some information on [nlu](product)
+- i want to use [nlu](product)
+- I want to learn about rasa [nlu](product)
+- tell me about [core](product) please
+- i want to use rasa to build my chatbot
+- how to start with rasa
+- what is rasa [core](product)
+- rasa [stack](product:core)
+- tell me how to get started with [core](product)
+- what is the difference between rasa [nlu](product) and rasa [core](product)
+- so, how do I use rasa?
+- WHAT IS RASA
+
+## intent:human_handoff
+- can i please speak to a human?
+- are there also humans working for your company?
+- i want to talk to someone who is smarter than you
+- I dont like to talk to a machine
+- talking to a bot is stupid
+- speak to a real person
+- i would like to speak to a person
+- gimme a proper human
+- i want to speak to a manager
+- i want to speak to customer service
+- id like to talk to a real rasa employee
+- i want to talk to a person
+- human handoff
+- can you forward me to your team
+- let me talk to a real person
+- give me a human
+- someone from customer care
+- I want to talk to a human
+- I don't wanna talk to a bot
+- Can I speak to anyone who can really help me?
+- let me talk to a human
+- i want to talk to someone else
+- i'd rather speak with a real rasa employee
+- please give me a human
+- i want to talk to someone at rasa
+- i dont wanna talk to a bot
+- give me a human now
+- that's annoying I'd like to speak to someone real
+- customer service
+- I want to talk to the founders
+
+## intent:install_rasa
+- Yes, I do need Rasa Stack.
+- Could you help me get Rasa stack?
+- I need Rasa Stack.
+- install Rasa on Mac
+- I need to install Rasa NLU.
+- I'd like to install Rasa NLU
+- I want info on installing Rasa
+- Please assist me with installing Rasa Stack.
+- Just install Rasa Stack
+- Help me install Rasa
+- How to install Rasa Core?
+- how do I install rasa in windows
+- I want to do a Rasa Stack installation
+- How to install Rasa Stack
+- I require Rasa Stack?
+- install Rasa NLU
+- Can you help me to install Rasa?
+- I need assistance in getting Rasa Stack.
+- Where to get Rasa Stack?
+- Do you mind helping me install Rasa?
+- Please install Rasa Stack
+- Rasa Stack is what I will be installing
+- I want to install Rasa Stack
+- Can you get me Rasa Core?
+- I'm going to install Rasa Stack
+- I have decided on Rasa Stack
+- I'd like to perform an installation of Rasa Stack
+- Could I have Rasa Stack?
+- Please help me install Rasa Stack
+- I want to use Rasa Stack
+- I need Rasa Stack
+- How to install Rasa?
+- Please, I need Rasa Core.
+- Its urgent for me to install Rasa.
+- how do I run rasa on windows
+- I'm installing Rasa Stack
+- How do I install Rasa Stack?
+- I have chosen Rasa Stack
+- Help me get Rasa Core.
+
+## intent:next_step
+- Please take me to the next step
+- I want to go to the next step
+- Next step please
+- Next step
+
+## intent:nlu_generation_tool_recommendation
+- which tools can I use to create nlu data
+- how can I get nlu data
+- recommend me some nlu tools
+- how to work with nlu data
+- i require more nlu data
+- i have to less nlu data
+- are there simpler ways to create nlu data
+- need more data for nlu
+
+## intent:nlu_info
+- I don’t understand how you handle [entity recognition](nlu_part) at Rasa
+- [intent classification](nlu_part)
+- is [duckling](nlu_part) part of rasa?
+- what is [intent classification](nlu_part)?
+- tell me about [entity recognition](nlu_part)
+- I don’t understand [entity recognition](nlu_part)
+- I still don’t get how [intent classification](nlu_part) works
+- how do you integrate [duckling](nlu_part)
+- it would be helpful to learn more about [intent classification](nlu_part)
+- do you use [duckling](nlu_part)
+- can you explain to me how [intent classification](nlu_part) works?
+- an explanation of how [entity recognition](nlu_part) work would help
+- how does [entity recognition](nlu_part) work?
+- what is [entity recognition](nlu_part)?
+- I checked the documentation on [intent classification](nlu_part) but I still don’t understand it
+- it would be helpful to learn more about [entity recognition](nlu_part)
+- does rasa work with [duckling](nlu_part)?
+- [entity recognition](nlu_part)
+- I want to learn about [intent classification](nlu_part)
+- how is [entity recognition](nlu_part) managed in rasa?
+- I want to learn about [entity recognition](nlu_part)
+- how is [intent classification](nlu_part) managed in rasa?
+- how does [intent classification](nlu_part) work?
+- [duckling](nlu_part)
+- [entity recognition](nlu_part) - what is that?
+- I don’t understand [intent classification](nlu_part)
+- tell me about [intent classification](nlu_part)
+- I still don’t get how [entity recognition](nlu_part) works
+
+## intent:out_of_scope
+- you will know it from the single red rose it carries between its teeth
+- talk to me
+- you are a badass bot!
+- how come?
+- sorry, i cannot rephrase
+- again?
+- do you sell vacuum robots?
+- shitmuncher
+- are you using Rasa Core and NLU ?
+- i wanna party
+- I want french cuisine
+- who will anser my email?
+- oh my god, not again!
+- i want pizza!!
+- can you help me with the docs?
+- who is your favourite robot?
+- I already told you! I'm a shitmuncher
+- Can I ask you questions first?
+- do you have a phone number?
+- you suck
+- can you help me to build a bot
+- silly bot
+- is barbara still married to you
+- stop it, i do not care!!!
+- i can't deal with _your_ request
+- restaurant
+- where do you live?
+- and make chicken noises into the phone
+- can you help me with your docs?
+- can you learn from our conversation?
+- that link doesn't work!
+- i want to eat
+- you are a stupid bot
+- it's a pity
+- tell me a joke
+- i don't care!!!!
+- how are the kids
+- lol
+- i want food
+- you're a loser lmao
+- what's your wife doing this weekend
+- but I just told you that :(
+- do you want to marry me?
+- show me a picture of a chicken
+- I'm a shitmuncher
+- what?
+- i want to buy a roomba for my grandson
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- please hurry, i have deadline in two weeks to deliver the bot it is for very big company
+- can i be shown a gluten free restaurant
+- and your REST API doesn't work
+- kannst du auch deutsch?
+- can you help me with your docs
+- you already have that
+- common, just try
+- neither
+- did i break you
+- bots are bad
+- i want a non dripping ice cream
+- shit bot
+- how are akela's cats doing?
+- i am hungry
+- hey little mama let em whisper in your ear
+- really? you're so touchy?
+- you're rather dull
+- I changed my mind
+- But you're an english site :(
+- is that any of your business
+- i want a french restaurant
+- i will tame a mouse for you
+- restaurants
+- what else?
+- isn't the newsletter just spam?
+- are the newsletter worth the subscription?
+- why do you need that?
+- I like you
+- the one that is better than you
+- Why don’t you answer?
+- can we keep chatting?
+- who are the engineers at rasa?
+- i want pizza
+- are you vegan
+- please help with my ice cream it's dripping
+- udo, I want to marry you
+- i immediately need help with implementing the coolest bot you can imagine
+- hang on let me find it
+- someone call the police i think the bot died
+
+## intent:pipeline_recommendation
+- what I a good pipeline to start with?
+- give me a recommendation
+- what pipeline should I start with?
+- recommend pipeline
+- what pipeline is better?
+- what pipeline should i use?
+- what is the right pipeline to choose?
+- spacy or tensorflow, what is better to start?
+- which pipeline is better?
+- I don’t know which pipeline to use
+- what pipeline is better for what i want?
+
+## intent:signup_newsletter
+- i want to join the newsletter list
+- newsletter it is
+- to make a subscribtion
+- Newsletter
+- Subscribe
+- send me the newsletter
+- add me to the subscription list
+- newsletter subscription
+- gimme the newsletter
+- I would like to sign up for the newsletter.
+- i go for the newsletter
+- I want to sign up for the newsletter.
+- get the newsletter
+- get newsletter
+- subscribe to the newsletter
+- i want to signup for the nl
+- i want to subsribe to the newsletter
+- how about the newsletter
+- can you subscribe me to the newsletter
+- newsletter please my email is linda@yolo.de
+- lets try the newsletter registration
+- sign me up for that newsletter
+- I want to subscribe to your newsletter
+- i want to join the newsletter mails
+- i want to sign up for the newsletter
+- Subscribe
+- add me to the newsletter
+- subscribe example@rasa.com to the newsletter
+- i need this dope newsletter
+- newsletter
+- I would love to subscribe to a newsletter!
+- i need to be on the newsletter list
+- i would love to receive the rasa newsletter
+- add me as your subscriber
+- yeaaah lets go for the newsletter
+- get the latest news from Rasa
+- i want to receive the newsletter from now on
+- please subscribe me to the newsletter alex@example.cz
+- I want the newsletter
+- let's make a subscribtion
+- please sign me up for the newsletter
+- can you pelase subscribe me to the newsletter
+- i'd like your newspaper please
+- subscribe to your newsletter
+- news
+- i prefer to get the newsletter
+- get the newsletter
+- Subscribe to Rasa newsletter
+- newsletter, here is my email: sisi@rasa.com
+- can you sign me up for the newsletter
+- i want on that dope newsletter
+- add me to the newsletter list
+- i'm craving the newsletter
+- what about signing up for the newsletter?
+- I wanna sign up for the newsletter.
+- please send me the newsletter
+- can i get emails from you
+- newsletter - my email is lol@rasa.com
+- newsletter registration first
+- how about the newsletter signup
+- id like to subscribe
+- Sign me up for the newsletter.
+- Newsletter please.
+- get a subscription
+- join that newsletter
+- register me for the newsletter
+- subscribe me to the newsletter
+- i want the newsletter
+- i want to subscribe
+- I also want to subscribe
+- newsletter pls
+- first lets sign up for the newsletter
+- subscribe hi@rasa.com to the newsletter
+- newsletter please
+- sign me up for the newsletter - my email is yesplease@rasa.ai
+- i want on this dope newsletter - my email is alex@mail.com
+- can i sign up to the newsletter too?
+- newsletter registration
+- sign me up for the rasa newsletter
+- subscribe to newsletter
+- i want the newsletter
+- nl
+- i need the newsletter
+- i want to receive your nl
+- sign up for the NL
+- i want to subscribe to your newsletter
+- i also want to sign up for the newsletter
+- now i want to signup for the newsletter
+
+## intent:switch
+- [luis](current_api) atm
+- I use [DialogFlow](current_api:dialogflow)
+- I want to switch from [dialog flow](current_api:dialogflow) to rasa
+- [bot framework](current_api)
+- I want to change from [dialog flow](current_api:dialogflow) to rasa
+- chatfuel
+- I use [wit.ai](product)
+- [luis.ai](current_api:luis)
+- [DialogFlow](current_api:dialogflow)
+- I want to move from [LUIS.ai](current_api:luis) to Rasa
+- how does rasa compare to [luis](product)
+- i want to switch from [dialogflow](current_api) to Rasa
+- I currently use [LUIS](current_api:luis)
+- I currently use [dialog flow](current_api:dialogflow)
+- how does rasa compare to [dialogflow](product)
+- what is the difference between [bot framework](product) and rasa
+
+## intent:technical_question
+- what is duckling
+- having trouble with rasa installation
+- i am having trouble setting this up
+- db processing
+- duckling
+- is rasa better than [dialogflow](current_api)
+- does rasa have all the same features as [luis](current_api)
+- how to integrate rasa chatbot with my website
+- what technologies did u use to create more mature chatbot?
+- technical side of things?
+- what infrastructure is required to run a bot?
+- interactive learning?
+- what is duckling
+- how about interactive learning
+- having some problems with installation
+- help me wih the installation
+- how works rasa
+- should I use rasa instead of ibm Watson api
+- which technology is used to create you
+- dicklung
+- with exceptions
+- is there an alexa integration
+- what components of Rasa are open source
+- how do slots work
+
+## intent:thank
+- thanks!
+- Thanks for that
+- cheers bro
+- perfect thank you
+- cool thank you
+- amazing, thanks
+- cool, thanks
+- cheers
+- thanks!
+- Cool. Thanks
+- thanks this is great news
+- thanks
+- Thanks bot
+- cool thanks
+- thanks for the help
+- thanks a lot
+- ok thanks!
+- thanks
+- Thank you so much
+- thank you
+
+## intent:unknown_input
+- I've no idea
+
+## intent:user_start_conversation
+- hello jamie
+- greetings jamie
+- lovely day isn't it jamie
+- long time no see jamie
+- hey jamie
+- hey there jamie
+- hello jamie
+- jamie hi
+- hi jamie
+- a good day jamie
+- hello there jamie
+- hi there jamie
+
+## synonym:1
+- one
+
+## synonym:Canada
+- Canada
+
+## synonym:China
+- China
+- Chinese
+- PRC
+- People's Republic of China
+- CN
+
+## synonym:India
+- India
+- Indian
+
+## synonym:USA
+- USA
+- the states
+- America
+- American
+- US
+- north america
+- U.S.
+- usa
+- United States
+
+## synonym:United Kingdom
+- UK
+- U.K.
+
+## synonym:[A-Za-z][0-9]{8}
+- ^[A-Z][0-9]{8}$
+
+## synonym:[a-zA-Z]{3}\d{6}[a-zA-Z]{2}\d{8}
+- [a-zA-Z]{3}\d{6}[a-zA-Z]{2}\d{8}
+
+## synonym:alex
+- Alex
+
+## synonym:conda
+- anaconda
+
+## synonym:core
+- stack
+
+## synonym:date
+- dates
+
+## synonym:developer
+- Developer
+
+## synonym:dialogflow
+- dialog flow
+- DialogFlow
+
+## synonym:distance
+- distances
+
+## synonym:duration
+- how long
+- durations
+
+## synonym:entity recognition
+- entity extraction
+
+## synonym:intent classification
+- intents
+- intent
+
+## synonym:luis
+- LUIS
+- LUIS.ai
+- luis.ai
+
+## synonym:money
+- amounts
+
+## synonym:name
+- names
+
+## synonym:organisation
+- companies
+
+## synonym:place
+- places
+
+## lookup:visa-required-country
+- China
+- Chinese
+- PRC
+- People's Republic of China
+- CN
+- India
+- Indian
+
+## lookup:visa-ref-no
+- [a-zA-Z]{3}\d{6}[a-zA-Z]{2}\d{8}
+
+## lookup:travel-doc-no
+- ^[A-Z][0-9]{8}$
+
+## lookup:visa-waiver-country
+- USA
+- the states
+- America
+- American
+- US
+- north america
+- Canada
+
+## lookup:location
+- San Francisco
+- Montreal
+- New York
+- Washington
+- Berlin
+- Zurich
+- Hamburg
+- Frankfurt
+- Munich
+- Madrid
+- Cologne
+- Düsseldorf
+- Barcelona
+- Vienna
+- Warsaw
+- Paris
+- Rome
+- London
+- Prague
+- Sidney
+- Delhi
+- Mumbai
+- Tokyo
+- Rio de Janeiro
+- Beijing
+- Guangzhou
+- Shanghai
+- Chongqing
+- Hong Kong
+- China
+- India
+- US
+- USA
+- Germany
+- United States
+- UK
+- England
+- Brazil
+- France
+- Poland
+- Italy
+- Spain
+- Europe
+- Canada
+- Ukraine
