@@ -138,7 +138,6 @@
     - utter_direct_to_forum_for_help
     - utter_direct_to_step4
 
-
 ## Install Rasa: Ask ready to build -> FAQ
 * enter_data{"package_manager": "pip"} OR install_rasa{"package_manager": "pip"}
     - action_select_installation_command
@@ -156,7 +155,6 @@
 * ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_store_problem_description
     - action_faqs
-
 
 ## Install Rasa: Ask ready to build -> No  -> Problem -> FAQ
 * enter_data{"package_manager": "pip"} OR install_rasa{"package_manager": "pip"}
