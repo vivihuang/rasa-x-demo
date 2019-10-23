@@ -1,6 +1,7 @@
 language: en
 pipeline:
 - name: WhitespaceTokenizer
+  case_sensitive: false
 - name: CRFEntityExtractor
 - name: CountVectorsFeaturizer
   OOV_token: oov
