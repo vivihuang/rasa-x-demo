@@ -1,3 +1,6 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
 intents:
 - enter_data:
     use_entities: []
@@ -161,7 +164,7 @@ slots:
     type: unfeaturized
   use_case:
     type: unfeaturized
-templates:
+responses:
   utter_ask_budget:
   - text: What's your annual budget for conversational AI? 💸
   utter_ask_business_email:
@@ -858,6 +861,15 @@ actions:
 - utter_3_visa_application_online
 - utter_4_visa_application_offline
 - utter_passport_information_query
+- utter_salesrequest_failed
+- utter_default
+- utter_thank_suggestion
+- utter_ask_voice
+- utter_ask_feedback_message
+- utter_continue_step3
+- utter_continue_step2
+- utter_continue_step4
+- utter_no_more_steps
 forms:
 - subscribe_newsletter_form
 - suggestion_form
